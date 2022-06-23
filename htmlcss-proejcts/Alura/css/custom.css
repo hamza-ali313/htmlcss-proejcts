@@ -1,0 +1,1207 @@
+    @charset "utf-8";
+    /* CSS Document */
+    
+    @font-face {
+        font-family: centuryGothic;
+        src: url(../fonts/Century\ Gothic.ttf);
+    }
+    
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-image: url("../images/body-img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 13090px;
+        /* position: fixed;
+overflow-y: scroll;
+padding: 0;
+margin: 0;*/
+        width: 100%
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    p {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    ul,
+    li {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    a {
+        text-decoration: none !important;
+        transition: all 0.5s;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    header .container .logo img {
+        margin-left: -107px;
+    }
+    
+    section.first-sec .text {
+        margin-top: 218px;
+    }
+    
+    section.first-sec .text h3 {
+        font-size: 93px;
+        font-weight: 700;
+    }
+    
+    section.first-sec .text p {
+        font-size: 27px;
+    }
+    
+    section.first-sec .text {
+        margin-top: 218px;
+        margin-left: -95px;
+    }
+    
+    .start-project a {
+        transform: rotate(89deg);
+        color: #fbfbfb;
+        margin-top: 469px;
+        float: right;
+        margin-right: 166px;
+    }
+    
+    .start-project a i {
+        letter-spacing: 37px;
+    }
+    
+    .allura-text p {
+        font-size: 300px;
+        letter-spacing: 25px;
+        margin-left: -119px;
+    }
+    
+    .single-img {
+        margin-left: -139px;
+        margin-top: -163px;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .sign-form {
+        background-color: #cd643e;
+        /* text-align: center; */
+    }
+    
+    .sign-form {
+        background-color: #cd643e;
+        text-align: center;
+        width: 383px;
+        border-radius: 52px;
+        height: 492px;
+        margin-top: -315px;
+        margin-bottom: 132px;
+    }
+    
+    .sign-form:before {
+        content: "a";
+        position: absolute;
+        background-color: #402c26;
+        width: 4px;
+    }
+    
+    .sign-up-img {
+        position: relative;
+        margin-left: 81px;
+    }
+    
+    .sign-form:before {
+        content: "";
+        position: absolute;
+        background-color: #cd643e;
+        top: -33px;
+        width: 447px;
+        height: 561px;
+        left: -28px;
+        opacity: 0.3;
+        z-index: -1;
+        border-radius: 34px;
+    }
+    
+    .sign-form input {
+        background-color: transparent;
+        outline: none;
+        margin-bottom: 26px;
+        width: 281px;
+        border-radius: 15px;
+        height: 37px;
+        padding-left: 15px;
+        border: 1px solid #f88f67;
+        color: #fff;
+    }
+    
+    p.sign-up-text {
+        color: #fff;
+        font-size: 42px;
+        text-transform: capitalize;
+        padding: 26px 0;
+    }
+    
+     ::placeholder {
+        color: #f79b77;
+    }
+    
+    .sign-up-btn {
+        background-color: #08575b;
+        margin: 0 46px;
+        height: 40px;
+        border-radius: 23px;
+        color: #fff;
+        padding-top: 6px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .sign-up-btn a {
+        color: #fff;
+    }
+    
+    .sign-up-btn:hover {}
+    
+    .allura-text p {
+        color: black;
+        -webkit-text-fill-color: #eec2c200;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #cd643e;
+        font-family: centuryGotihc;
+        font-weight: bolder;
+        font-size: 287px;
+    }
+    
+    section.tech-we-work-sec .heading {
+        font-size: 44px;
+        color: #fff;
+        margin: 44px 0;
+    }
+    
+    img.one-img {
+        width: 100px;
+    }
+    
+    .tech-disc p {
+        color: #fff;
+        margin: 23px 0;
+        text-transform: capitalize;
+    }
+    
+    section.third-sec .left p {
+        font-size: 62px;
+        color: #fff;
+        line-height: 78px;
+        font-family: 'centuryGotihc';
+        margin-top: 80px;
+        margin-left: 36px;
+    }
+    
+    span.codes {
+        color: #08575b;
+    }
+    
+    span.ideas {
+        color: #8f0b3c;
+    }
+    
+    span.business-where {
+        color: #ff8252;
+    }
+    
+    section.third-sec .right {
+        color: #c0afab;
+        padding: 0px 63px 0 0px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    
+    section.third-sec .right span {
+        color: #fff;
+        font-weight: 800;
+    }
+    
+    section.third-sec {
+        margin-top: 253px;
+    }
+    /* .sign-up-btn {
+transition: 2s;
+}
+
+.sign-up-btn:hover {
+animation: sign-up-btn 0s;
+box-shadow: inset 0 0 0 2em;
+color: #08575b;
+}
+
+@keyframes sign-up-btn {
+0% {
+box-shadow: 0 0 0 0 #08575b;
+;
+}
+100% {
+box-shadow: 0 0 0 0 #08575b;
+}
+}
+
+.sign-form form {
+position: relative;
+}
+
+.sign-form input:placeholder-shown~label.form__label {
+position: absolute;
+left: 64px;
+margin-top: 7px;
+font-size: 18px;
+}
+
+.sign-form input:focus .form__label {
+margin-top: -26px;
+transition: 0.2s;
+display: block;
+font-size: 1rem;
+font-weight: 700;
+} */
+    
+    .module-one {
+        background-image: url("../images/1.png");
+        background-size: cover;
+        height: 399px;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        line-height: 29px;
+    }
+    
+    .module-two {
+        background-image: url("../images/2.png");
+        background-size: cover;
+        height: 399px;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        line-height: 29px;
+    }
+    
+    .module-three {
+        background-image: url("../images/4.png");
+        background-size: cover;
+        height: 399px;
+        background-position: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        line-height: 29px;
+    }
+    
+    section.project-managment-sec {
+        margin-top: 278px;
+    }
+    
+    .module-one p {
+        padding: 0 73px;
+        color: #b5c9cb;
+    }
+    
+    .module-two p {
+        padding: 0 73px;
+        color: #b5c9cb;
+    }
+    
+    .module-three p {
+        padding: 0 73px;
+        color: #b5c9cb;
+    }
+    
+    a.module-get-start {
+        color: #fff;
+        letter-spacing: 1px;
+        margin: 47px 0 -40px 0;
+    }
+    
+    a.module-get-start:hover {
+        color: #fff;
+    }
+    
+    img.shadow-img {
+        margin-left: 88px;
+    }
+    
+    section.project-managment-sec .heading {
+        text-align: center;
+        color: #fff;
+        padding: 0 209px;
+        margin: 122px 0;
+    }
+    
+    section.project-managment-sec .heading h3 {
+        font-size: 57px;
+    }
+    
+    section.featured-prod-sec .heading {
+        position: relative;
+    }
+    
+    section.featured-prod-sec .heading p {
+        color: #fff;
+        font-size: 210px;
+        text-transform: capitalize;
+        font-family: 'centuryGotihc';
+        font-weight: 800;
+        position: relative;
+        text-align: center;
+    }
+    
+    section.featured-prod-sec .heading .shadow {
+        font-size: 142px;
+        position: absolute;
+        top: 147px;
+        letter-spacing: 3px;
+        left: 363px;
+        opacity: 0.1;
+    }
+    
+    section.featured-prod-sec .row {
+        margin-top: 146px;
+    }
+    
+    .product p {
+        color: #fff;
+        margin: 20px 0 0 40px;
+    }
+    
+    .product a {
+        color: #fff;
+        margin: 20px 0 0 40px;
+    }
+    
+    section.allura-text-sec p {
+        font-size: 275px;
+        display: flex;
+        justify-content: center;
+        font-family: 'centuryGotihc';
+        text-transform: uppercase;
+        line-height: 189px;
+    }
+    
+    section.allura-text-sec p {
+        font-size: 255px;
+        display: flex;
+        justify-content: center;
+        font-family: 'centuryGothic';
+        text-transform: uppercase;
+        line-height: 259px;
+        -webkit-text-stroke: #000000;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    section.allura-text-sec {
+        margin-top: 211px;
+    }
+    
+    section.our-client-sec .card {
+        margin: 3px -11px;
+    }
+    
+    section.our-client-sec .heading {
+        text-align: center;
+        color: #ffff;
+        font-size: 82px;
+        text-transform: capitalize;
+        font-family: 'centuryGotihc';
+    }
+    
+    section.our-client-sec .shadow {
+        font-size: 343px;
+        color: #fff;
+        text-transform: capitalize;
+        opacity: 0.1;
+        font-family: 'centuryGotihc';
+        position: absolute;
+        top: -107px;
+        margin-left: 179px;
+    }
+    
+    section.our-client-sec {
+        position: relative;
+        /* margin-top: 476px; */
+    }
+    
+    section.branding-sec .text {
+        color: #ffff;
+        font-size: 72px;
+        margin-left: 35px;
+        line-height: 81px;
+    }
+    
+    section.branding-sec .text p span {
+        color: #ff8252;
+    }
+    
+    p.what-we-do {
+        color: #fff;
+        font-size: 38px;
+    }
+    
+    section.branding-sec .img {
+        margin-left: 63px;
+    }
+    
+    section.branding-sec a {
+        color: #fff;
+    }
+    
+    section.branding-sec {
+        margin-top: 102px;
+    }
+    
+    section.branding-sec .alura p {
+        text-align: center;
+        font-size: 288px;
+        /* background: linear-gradient(to top, #1c87c9 50%, #113155 50%); */
+        background-image: url(../images/arrow-bg.jpg);
+        font-family: 'centuryGothic';
+        -webkit-text-stroke: 1px #7293BE;
+        -webkit-text-fill-color: transparent;
+        background-attachment: fixed;
+        -webkit-background-clip: text;
+        margin-top: 100px;
+    }
+    
+    .ninth-sec .contentsani {
+        position: relative;
+    }
+    
+    .ninth-sec .contentawwal {
+        position: relative;
+    }
+    
+    section.ninth-sec .contentsani .second {
+        position: absolute;
+        top: 627px;
+        left: 173px;
+    }
+    
+    .ninth-sec .contentawwal img {
+        margin-top: 292px;
+    }
+    
+    .ninth-sec .contentawwal .text {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -205px;
+        text-align: center;
+        color: #fff;
+        margin-top: 29px;
+    }
+    
+    .ninth-sec .contentsani .first .text {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -199px;
+        text-align: center;
+        color: #fff;
+        margin-top: 29px;
+    }
+    
+    .ninth-sec .contentsani .first .text .date {
+        margin-left: -107px;
+    }
+    
+    .ninth-sec .contentsani .second .text {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 7px;
+        text-align: center;
+        color: #fff;
+        margin-top: 29px;
+    }
+    
+    .contentsalis .text {
+        display: flex;
+        color: #fff;
+        justify-content: space-evenly;
+        margin-left: -197px;
+        margin-top: 40px;
+    }
+    
+    .ninth-sec .contentawwal .text .date {
+        margin-left: -106px;
+    }
+    
+    .ninth-sec .contentsani .second .text .date {
+        margin-left: 212px;
+    }
+    
+    .testimo p {
+        color: #fff;
+        font-size: 141px;
+        text-transform: capitalize;
+        font-family: 'centuryGothic';
+        letter-spacing: 11px;
+        margin-left: -59px;
+    }
+    
+    .row.second-row {
+        margin-top: 326px;
+    }
+    
+    .testimo a {
+        display: flex;
+        justify-content: center;
+        margin-top: -49px;
+        color: #fff;
+    }
+    
+    .testimo a i {
+        display: flex;
+        align-items: center;
+    }
+    
+    .contentrabe .text {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -162px;
+        margin-top: 31px;
+        color: #fff;
+    }
+    
+    .contentrabe {
+        margin-top: 230px;
+    }
+    
+    .testimo {
+        margin-top: 104px;
+    }
+    
+    .contentrabe .text .date {
+        margin-left: -84px;
+        color: #c26b55;
+    }
+    
+    .contentsalis .text .date {
+        margin-left: -124px;
+    }
+    
+    section.have-a-project-sec {
+        margin-top: 1374px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 143px;
+    }
+    
+    section.have-a-project-sec .heading {
+        font-size: 110px;
+        text-transform: capitalize;
+        font-family: 'centuryGothic';
+    }
+    
+    .contact-btn a {
+        background-color: #ff8252;
+        width: 127px;
+        height: 127px;
+        display: inline-block;
+        border-radius: 77%;
+        padding-top: 52px;
+        text-transform: capitalize;
+        color: #fff;
+        font-family: 'centuryGothic';
+    }
+    
+    .contact-btn a:hover {
+        color: #402c26;
+        background-color: #b45e3d;
+    }
+    
+    section.have-a-project-sec .heading p {
+        font-family: 'centuryGothic';
+        line-height: 108px;
+    }
+    
+    .footer {
+        margin-top: 92px;
+        color: #ffff;
+        border-bottom: 1px solid #949AA3;
+        padding: 44px;
+        margin-bottom: 30px;
+    }
+    
+    ul.social-icons {
+        display: flex;
+    }
+    
+    .contact i {
+        text-align: left;
+        margin-left: -24px;
+        margin-right: 9px;
+        line-height: 34px;
+    }
+    
+    ul.social-icons i {
+        font-size: 24px;
+        color: #fff;
+        margin: 0 5px;
+    }
+    
+    .footer-items.contact {
+        text-align: left;
+    }
+    
+    .footer .heading {
+        font-size: 36px;
+        text-transform: capitalize;
+    }
+    
+    .about-us {
+        margin-left: -93px;
+    }
+    
+    .footer-col.site-links {
+        margin-left: 48px;
+    }
+    
+    .footer-col.site-links ul li a {
+        text-transform: capitalize;
+        font-family: 'centuryGothic';
+        color: #949aa4;
+    }
+    
+    .footer-col.site-links ul li a:hover {
+        color: #7b8392;
+        font-size: 15px;
+    }
+    
+    p.about-us-disc {
+        color: #949aa4;
+    }
+    
+    .footer-items.contact a {
+        color: #949aa4;
+    }
+    
+    .footer-items.contact a:hover {
+        color: #7b8392;
+        font-size: 16px;
+    }
+    
+    .footer-item-disc.connected {
+        color: #949aa4;
+    }
+    
+    .lower-footer .container {
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+        margin-left: 285px;
+        margin-top: 12px;
+    }
+    
+    section.tech-we-work-sec {
+        margin-top: 269px;
+    }
+    
+    .sidebar a {
+        display: block;
+        color: #dd557f;
+    }
+    
+    .sidebar a:hover {
+        color: #fff;
+    }
+    
+    body {
+        position: relative;
+    }
+    
+    .sidebar {
+        position: absolute;
+        left: 52px;
+        font-size: 33px;
+    }
+    
+    a.closebtn {
+        margin: 0 0 31px 100px;
+    }
+    
+    .sidebar {
+        position: absolute;
+        left: -100%;
+        font-size: 33px;
+        background-color: #831537;
+        text-align: center;
+        height: 100%;
+        margin-top: -21px;
+        transition: all 0.5s;
+        width: 15%;
+        padding-top: 40px;
+        z-index: 1;
+    }
+    
+    i.fa.fa-facebook:hover {
+        color: #3b5998;
+    }
+    
+    i.fa.fa-home:hover {
+        color: green;
+    }
+    
+    i.fa.fa-google:hover {
+        color: #ff1f1f;
+    }
+    
+    .lower-footer {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+    }
+    
+    .scrolling-text {
+        display: block;
+        transition: transform 0.5s cubic-bezier(0.23, 0.36, 0.77, -0.1);
+    }
+    
+    .ninth-sec .contentsani .second .text .date {
+        margin-left: 16px;
+    }
+    
+    section.featured-prod-sec img {
+        width: 92%;
+    }
+    
+    section.featured-prod-sec .product:nth-child(2n) {
+        margin-top: 82px;
+    }
+    
+    section.featured-prod-sec .slider {
+        margin-top: 109px;
+    }
+    
+    @media only screen and (min-device-width: 520px) and (max-device-width: 767px) and (orientation: portrait) {}
+    
+    @media only screen and (min-device-width: 120px) and (max-device-width: 750px) and (orientation: landscape) {}
+    
+    @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: portrait) {}
+    
+    @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: landscape) {}
+    
+    @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: portrait) {}
+    
+    @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: landscape) {}
+    
+    @media only screen and (min-width: 1366px) and (max-width: 1920px) {}
+    
+    @media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {}
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        header .container .logo img {
+            margin-left: -63px;
+        }
+        section.first-sec .text h3 {
+            font-size: 75px;
+        }
+        section.first-sec .text {
+            margin-top: 42px;
+            margin-left: -8px;
+        }
+        .start-project a {
+            margin-top: 127px;
+            margin-right: 13px;
+        }
+        .sidebar {
+            width: 100%;
+        }
+        .tech-disc {
+            text-align: center;
+        }
+        section.tech-we-work-sec .heading {
+            text-align: center;
+        }
+        body {
+            background-attachment: fixed;
+        }
+        .module-one,
+        .module-two,
+        .module-three {
+            background-size: unset;
+            background-repeat: no-repeat;
+            padding: 0 144px;
+        }
+        section.project-managment-sec .heading {
+            text-align: center;
+            color: #fff;
+            padding: 0 0px;
+        }
+        section.featured-prod-sec .heading p {
+            font-size: 85px;
+        }
+        section.featured-prod-sec .heading .shadow {
+            font-size: 56px;
+            position: absolute;
+            top: 59px;
+            letter-spacing: 3px;
+            left: 140px;
+            opacity: 0.3;
+        }
+        section.featured-prod-sec .product {
+            text-align: center;
+        }
+        section.our-client-sec .shadow {
+            font-size: 47px;
+            opacity: 0.2;
+            position: absolute;
+            top: 61px;
+            left: 121px;
+            margin-left: 179px;
+        }
+        section.branding-sec .alura p {
+            margin-left: -61px;
+            font-size: 235px;
+        }
+        .about-us {
+            margin-left: 0;
+        }
+        .footer-col.site-links {
+            margin-left: 0;
+        }
+        section.have-a-project-sec .heading {
+            font-size: 91px;
+        }
+        .lower-footer .container {
+            margin-left: 0px;
+        }
+        section.allura-text-sec p {
+            font-size: 54px;
+            line-height: 59px;
+        }
+        .testimo p {
+            font-size: 109px;
+            margin-left: -21px;
+        }
+        .sign-up-img {
+            position: relative;
+            margin-top: 910px;
+            margin-left: 140px;
+        }
+        .single-img {
+            margin-top: -163px;
+            margin-left: 55px;
+            position: absolute;
+        }
+        .allura-text p {
+            font-size: 219px;
+            margin-left: 24px;
+        }
+        section.ninth-sec .contentsani .second {
+            position: absolute;
+            top: 428px;
+            left: 173px;
+        }
+        section.ninth-sec {
+            text-align: center;
+        }
+        .ninth-sec .contentawwal .text {
+            margin-left: -28px;
+        }
+        .ninth-sec .contentsani .first .text {
+            margin-left: -18px;
+        }
+        .ninth-sec .contentawwal img {
+            margin-top: 0;
+        }
+        .contentsalis {
+            margin-top: 199px;
+        }
+        .contentsalis .text {
+            margin-left: 0;
+            margin-top: 23px;
+        }
+    }
+    
+    @media only screen and (min-width: 520px) and (max-width: 767px) {}
+    
+    @media only screen and (min-width: 300px) and (max-width: 519px) {
+        section.first-sec .text {
+            margin-left: 12px;
+            width: 314px;
+            margin-top: 102px;
+        }
+        body {
+            background-size: unset;
+            background-attachment: fixed;
+        }
+        section.first-sec .text p {
+            font-size: 24px;
+        }
+        header .container .logo img {
+            margin-left: -43px;
+        }
+        .logo {
+            margin-left: 85px;
+        }
+        .sidebar {
+            width: 100%;
+        }
+        .start-project a:hover {
+            color: #fff;
+        }
+        .start-project a {
+            transform: rotate(89deg);
+            color: #fbfbfb;
+            /* margin-top: 566px; */
+            float: right;
+            font-size: 21px;
+            margin-right: -62px;
+        }
+        .logo img {
+            width: 191px;
+        }
+        section.first-sec .text h3 {
+            font-size: 59px;
+        }
+        .single-img img {
+            width: 100%;
+            margin-top: -33px;
+            margin-left: -7px;
+        }
+        .single-img {
+            margin-left: 0;
+            margin-top: 0;
+            position: absolute;
+            /* z-index: 1; */
+        }
+        .sign-form {
+            width: 100%;
+        }
+        .sign-form:before {
+            width: 104%;
+            height: 549px;
+            left: -6px;
+            opacity: 0.5;
+        }
+        .sign-up-img .img img {
+            width: 100%;
+        }
+        .sign-up-img {
+            position: relative;
+            margin-left: 0;
+            margin-top: 729px;
+        }
+        .tech-disc {
+            text-align: center;
+            margin-top: 26px;
+        }
+        section.tech-we-work-sec .heading {
+            text-align: center;
+        }
+        section.third-sec .right {
+            padding: 0px 0px 0 0px;
+        }
+        section.third-sec .left p {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        section.project-managment-sec .heading {
+            padding: 0 0px;
+            margin-top: -138px;
+        }
+        section.featured-prod-sec .heading p {
+            font-size: 39px;
+        }
+        section.featured-prod-sec .product img {
+            width: 100%;
+        }
+        section.our-client-sec .shadow {
+            font-size: 50px;
+            color: rgb(252, 0, 0);
+            position: absolute;
+            top: 7px;
+            margin-left: 78px;
+        }
+        section.our-client-sec .heading {
+            color: #f82b2b;
+            font-size: 30px;
+        }
+        section.branding-sec .img img {
+            width: 100%;
+            margin-left: -20px;
+        }
+        section.ninth-sec .contentsani .second img {
+            width: 215%;
+            position: absolute;
+            top: -256px;
+            left: -150px;
+        }
+        .testimo p {
+            color: #c50c0c;
+            font-size: 41px;
+            margin-left: 0;
+        }
+        section.branding-sec .alura p {
+            font-size: 131px;
+            margin-top: 42px;
+        }
+        section.allura-text-sec p {
+            font-size: 55px;
+            line-height: 58px;
+        }
+        section.our-client-sec {
+            position: relative;
+            margin-top: 77px;
+        }
+        section.have-a-project-sec {
+            color: rgb(86 41 23);
+        }
+        section.have-a-project-sec .heading {
+            font-size: 65px;
+        }
+        section.have-a-project-sec {
+            margin-top: 56px;
+        }
+        section.branding-sec .text {
+            color: #562512;
+            font-size: 51px;
+            margin-left: 15px;
+            line-height: 82px;
+        }
+        .ninth-sec .contentawwal img {
+            margin-top: 173px;
+        }
+        section.featured-prod-sec .heading .shadow {
+            font-size: 27px;
+            position: absolute;
+            top: 27px;
+            letter-spacing: 3px;
+            left: 36px;
+            opacity: 0.2;
+            margin-left: 0px;
+        }
+        section.third-sec .right {
+            color: #4e2414;
+        }
+        span.business-where {
+            color: #853213;
+        }
+        section.branding-sec {
+            margin-top: 108px;
+        }
+        .lower-footer {
+            margin-left: -300px;
+            /* display: block; */
+            text-align: center;
+            font-size: 17px;
+        }
+        .footer-col.site-links {
+            margin-left: 8px;
+        }
+        .about-us {
+            margin-left: 0px;
+        }
+        .footer-col.site-links ul li a {
+            color: #000000;
+            font-weight: bolder;
+        }
+        p.about-us-disc {
+            color: #000000;
+            font-weight: bolder;
+        }
+        .allura-text p {
+            color: black;
+            font-size: 61px;
+            margin-left: 13px;
+            font-family: 'centuryGothic';
+            -webkit-text-stroke-width: thin;
+        }
+        .allura-text {
+            margin-bottom: 54px;
+        }
+        .footer-items.contact a {
+            color: #54291a;
+            font-weight: bolder;
+        }
+        .footer-item-disc.connected {
+            color: #54291a;
+            font-weight: bolder;
+            font-size: 17px;
+        }
+        .ninth-sec .contentawwal .text {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 16px;
+        }
+        .contentsalis .text {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 17px;
+        }
+        .ninth-sec .contentsani .first .text {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 31px;
+        }
+        .contentrabe .text {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 14px;
+        }
+        .testimo a {
+            margin-top: -4px;
+        }
+        .ninth-sec .contentsani .second .text {
+            margin-left: -138px;
+            margin-top: 0px;
+        }
+        .ninth-sec .contentsani .second .text .date {
+            margin-left: 101px;
+        }
+    }
