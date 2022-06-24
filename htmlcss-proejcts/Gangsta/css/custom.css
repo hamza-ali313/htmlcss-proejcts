@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: Poppins Semibold;
+    src: url("../Fonts/Poppins-SemiBold.ttf");
+}
+
+body,
+html {
+    height: 100%;
+}
+
+header::before {
+    content: '';
+    clip-path: polygon(0 0, 100% 0%, 100% 42%, 0 62%);
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(to right, #3f0810 25%, #b80421 100%);
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.body {
+    background-color: #000710;
+}
+
+.header {
+    margin: 28px 128px;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+a.nav-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+input#myRange {
+    height: 1px;
+    position: relative;
+    top: 87px;
+    right: 66px;
+    width: 254px;
+}
+
+section.first-sec {
+    margin: 32px 0;
+    padding: 32px 0px;
+}
+
+.first-sec-text ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul.playbtn {
+    margin: 29px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.first-sec-text .free-membership li {
+    padding: 0 3px 5px 8px;
+    font-size: 12px;
+}
+
+.first-sec-text h1 {
+    font-size: 54px;
+    font-family: 'Poppins Semibold';
+}
+
+.first-sec-text ul li {
+    padding: 0 33px 5px 8px;
+}
+
+.first-sec-text {
+    color: rgb(255, 255, 255);
+}
+
+
+/* .first-sec-text>* {
+    margin: 30px 0;
+} */
+
+.first-sec-text ul li a {
+    /* border: 1px solid #ff0000; */
+    color: #fff;
+    background: linear-gradient(to right, #3f0810 0%, #ba0422 98%);
+    font-size: 9px;
+    padding: 10px 30px;
+}
+
+.first-sec-text ul li a:hover {
+    background: linear-gradient(to right, #ba0422 98%, #3f0810 0%);
+    text-decoration: none;
+}
+
+i.fa.fa-play {
+    color: #5c0d09;
+    background-color: #ffffff;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 4px solid gray;
+}
+
+.active-customers {
+    background-color: #efff;
+    color: #98051c;
+    width: 485px;
+    border-radius: 9px;
+    height: 121px;
+    text-align: start;
+    padding: 0px 28px;
+}
+
+.active-customers h2 {
+    font-size: 60px;
+}
+
+.active-customers p {
+    color: #000000;
+    text-align: left;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0px 42px;
+}
+
+.first-sec-text {
+    color: rgb(255, 255, 255);
+    margin: 95px 1px;
+    padding: 37px 0;
+}
+
+.first-sec-img {
+    margin-left: 98px;
+}
+
+
+/* second section */
+
+section.whyus {
+    margin: 72px 0;
+    padding: 71px 0;
+}
+
+.left .row {
+    margin: 57px 0;
+    color: #ffffff;
+}
+
+.right .row {
+    margin: 57px 0;
+    color: rgb(255, 255, 255);
+}
+
+.whyus .container h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins Semibold';
+    margin: 54px 0;
+    font-size: 49px;
+}
+
+section.whyus .container h2 span {
+    color: #98051c;
+}
+
+
+/* third section */
+
+section.third-sec {
+    margin: 41px 0;
+    padding: 35px 0;
+}
+
+.third-sec-text {
+    padding: 68px 0 0 0;
+    color: #ffffff;
+}
+
+.third-sec-text h2 {
+    font-size: 40px;
+    font-family: 'Poppins Semibold';
+}
+
+.third-sec-text h2 span {
+    color: #ca263f;
+}
+
+.third-sec-text a {
+    background: linear-gradient(to right, #3f0810 0%, #ba0422 98%);
+    color: white;
+    padding: 12px 28px;
+    font-size: 11px;
+    margin: 22px 0;
+}
+
+.third-sec-text a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-sec-text>* {
+    padding: 7px 0;
+}
+
+
+/* fourth section */
+
+section.fourth-sec {
+    margin: 67px 0;
+    padding: 45px 0;
+}
+
+.fourth-sec-text .row .col-md-6 {
+    position: relative;
+}
+
+.fourth-sec-text .row {
+    margin-left: 2px;
+}
+
+
+/* ul.fourth-sec-ul li:before {
+    content: "✓";
+    position: absolute;
+    left: -7px;
+    background-color: #af0721; 
+
+} */
+
+i.fa.fa-check-circle {
+    margin-right: 13px;
+}
+
+.fourth-sec-text {
+    margin: 58px 6px;
+    color: #ffffff;
+    padding: 12px 53px;
+}
+
+.fourth-sec-text h2 {
+    font-size: 45px;
+}
+
+ul.fourth-sec-ul {
+    margin-left: -13px;
+}
+
+.fourth-sec-text {
+    margin: 58px 72px 0 -41px;
+    color: #ffffff;
+    padding: 12px 10px;
+}
+
+.fourth-sec-text p {
+    font-size: 14px;
+}
+
+
+/* fifth section */
+
+.fifth-sec-content {
+    padding: 23px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fifth-sec-content h3 {
+    font-size: 22px;
+    padding: 14px 0 0 0;
+    color: #ca263f;
+}
+
+.fifth-sec-content:hover {
+    background: linear-gradient(to right, #3f0810 0%, #ba0422 98%);
+    border-radius: 5px;
+}
+
+.fifth-sec-content:hover .fifth-sec-content h3 {
+    color: #ffffff;
+}
+
+
+/* sixth section */
+
+div.customer-rating-card {
+    background: linear-gradient(to right, #3f0810 0%, #ba0422 98%);
+    padding: 22px 23px;
+    display: inline-block;
+    max-width: 542px;
+    height: 197px;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+.avatar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+.avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 19px 0 0;
+}
+
+.avatar .intro {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.checked {
+    color: orange;
+}
+
+.sixth-slider {
+    margin: 4px 27px 0 49px;
+}
+
+section.sixth {
+    margin: 53px 0;
+    padding: 111px 0;
+}
+
+h2.fifth-sec-heading {
+    text-align: center;
+    color: #ffffff;
+    font-size: 44px;
+    padding: 46px 0;
+    font-family: 'Poppins Semibold';
+}
+
+h2.fifth-sec-heading span {
+    color: #ca263f;
+}
+
+.sixth-text {
+    color: #ffffff;
+    padding: 0 63px 0 0;
+    font-family: 'Poppins Semibold';
+}
+
+.sixth-text h2 {
+    font-size: 43px;
+    padding: 0px 0 30px 0;
+}
+
+
+/* counter */
+
+.counter {
+    text-align: center;
+    margin: 66px 0 0 0;
+    padding: 30px 0 0 0;
+    color: #ffffff;
+}
+
+.count h2 {
+    font-size: 64px;
+}
+
+.count h2 span {
+    color: #ca263f;
+    font-weight: 900;
+}
+
+.pink-sec-text {
+    margin: 24px 17px 0 98px;
+    padding: 57px 0;
+    color: #ffffff;
+    font-family: Poppins Semibold;
+}
+
+.pink-sec {
+    background-color: #ca263f;
+    border-radius: 32px;
+}
+
+.pink-sec-img img {
+    margin: -87px 0 0 235px;
+}
+
+.brand-sec {
+    margin: 98px 2px 0 0;
+    padding: 38px 0px 0 20px;
+    padding: 81px;
+    background-color: #0f161e;
+    text-align: center;
+}
+
+.brand img {
+    filter: grayscale(1);
+}
+
+.brand img:hover {
+    filter: brightness();
+}
+
+.footer-logo {
+    margin-left: -61px;
+    margin-top: 20px;
+}
+
+footer {
+    margin: 79px 0 0 0;
+    padding: 72px 0 0 0;
+    color: #ffffff;
+    font-family: Poppins Semibold;
+}
+
+.company ul li a,
+.resources ul li a,
+.usefulLinks ul li a {
+    color: white;
+    line-height: 33px;
+}
+
+.lower-footer {
+    background: linear-gradient(to right, #3f0810 0%, #ba0422 98%);
+    padding: 7px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins Semibold;
+    margin: 51px 0 0 0px;
+}
+
+@media only screen and (min-device-width:520px) and (max-device-width:767px) and (orientation:portrait) {}
+
+@media only screen and (min-device-width:120px) and (max-device-width:750px) and (orientation:landscape) {}
+
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:portrait) {}
+
+@media only screen and (min-device-width:751px) and (max-device-width:999px) and (orientation:landscape) {}
+
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:portrait) {}
+
+@media only screen and (min-device-width:1000px) and (max-device-width:1030px) and (orientation:landscape) {}
+
+@media only screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 300px) and (max-width: 519px) {}
