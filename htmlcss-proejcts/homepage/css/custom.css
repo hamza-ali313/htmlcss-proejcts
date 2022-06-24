@@ -1,0 +1,507 @@
+        @charset "utf-8";
+        /* CSS Document */
+        
+        @font-face {
+            font-family: transcend-bold;
+            src: url("../Fonts/transcend-bold.ttf");
+        }
+        
+        @font-face {
+            font-family: transcend-thin;
+            src: url("../Fonts/transcend-thin.ttf");
+        }
+        
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /*         
+        * {
+            font-family: 'Times New Roman', Times, serif;
+        } */
+        
+        ul li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: #fff;
+            margin: 0;
+            min-width: 1140px;
+        }
+        
+        header {
+            background-color: #ffffff;
+        }
+        
+        .upper-header {
+            background-image: url("../images/header-bg.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 137px;
+        }
+        
+        .upper-header .container ul li button {
+            background-color: red;
+            padding: 15px 31px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            font-family: transcend-thin;
+            font-size: 15px;
+        }
+        
+        .upper-header .container ul li a {
+            color: black;
+            font-family: transcend-thin;
+            border-right: 1px solid #8d8484;
+            padding-right: 36px;
+        }
+        
+        .upper-header .container ul li a:hover {
+            color: red;
+            text-decoration: none;
+        }
+        
+        i.fa.fa-user.icon,
+        i.fa.fa-phone {
+            margin: 11px;
+        }
+        
+        .header-logo h2 {
+            color: red;
+            font-size: 53px;
+            font-weight: bold;
+        }
+        
+        .header-logo p {
+            font-size: 23px;
+        }
+        
+        .upper-header div ul {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 50px 5px;
+            list-style-type: none;
+        }
+        
+        .upper-header div ul li {
+            margin-left: 40px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        
+        .nav-links nav ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        
+        .nav-links nav ul li a {
+            color: white;
+        }
+        
+        .nav-links nav ul li a:hover {
+            color: rgb(230, 9, 9);
+            text-decoration: none;
+        }
+        
+        .nav-links nav ul li {
+            padding: 23px 15px;
+            font-size: 17px;
+            color: white;
+            font-family: transcend-thin;
+        }
+        
+        .lower-header {
+            background-color: rgb(0, 0, 0);
+            padding-bottom: 0px;
+            border-bottom: 1px solid white;
+        }
+        
+        .header-logo {
+            background-color: white;
+            margin: -138px 56px 0 88px;
+            width: 301px;
+            height: 224px;
+            text-align: center;
+            float: left;
+            padding-top: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        /* First Section */
+        
+        .first-sec {
+            background-image: url("../images/first-sec-bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .first-sec-text h5 {
+            font-size: 34px;
+        }
+        
+        .first-sec-text {
+            padding: 221px 0px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .first-sec-text ul {
+            display: flex;
+            align-items: center;
+            margin-left: -43px;
+        }
+        
+        .first-sec-text ul li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .first-sec-text ul li .learn-more {
+            display: inline-block;
+            margin-left: 39px;
+        }
+        
+        .first-sec-text ul li .learn-more {
+            display: inline-block;
+            margin-left: 39px;
+            background-color: transparent;
+            padding: 12px;
+            text-align: center;
+            color: white;
+            border: 1px solid white;
+        }
+        
+        .first-sec-text ul li .learn-more:hover {
+            background-color: rgb(255, 0, 0);
+            border-color: rgb(255, 0, 0);
+            text-decoration: none;
+            color: white;
+        }
+        
+        .first-sec-text h4 span {
+            color: rgb(255, 0, 0);
+        }
+        
+        a.contact-us {
+            background-color: transparent;
+            padding: 13px 36px;
+            color: white;
+            border: 1px solid white;
+        }
+        
+        a.contact-us:hover {
+            background-color: rgb(255, 0, 0);
+            border-color: rgb(253, 0, 0);
+            text-decoration: none;
+            color: white;
+        }
+        
+        .first-sec-text h2 {
+            font-size: 65px;
+        }
+        
+        .first-sec-text h4 {
+            font-size: 38px;
+            font-family: 'transcend-thin';
+        }
+        /* second Section */
+        
+        .second-sec {
+            background-image: url("../images/second-sec-bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: transcend-thin;
+        }
+        
+        .second-sec-content {
+            padding: 90px 0;
+        }
+        
+        .card {
+            height: 530px;
+        }
+        
+        .red.sec.btn a {
+            color: white;
+            border: 1px solid;
+            padding: 14px 58px;
+        }
+        
+        .red-sec-text h3 {
+            color: white;
+            font-size: 45px;
+            font-family: "Times New Roman";
+            margin: 30px 0 0 1px;
+        }
+        
+        .card-body a {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 12px 19px;
+            display: inline-block;
+            margin: 4px 0;
+            max-width: 149px;
+        }
+        
+        .card-body a:hover {
+            outline: none;
+            color: white;
+            text-decoration: none;
+        }
+        
+        .card-body h2 {
+            font-size: 22px;
+        }
+        
+        .card {
+            position: relative;
+        }
+        
+        .card-body.one p:after {
+            content: url(../images/one.png);
+            position: absolute;
+            bottom: 23px;
+            right: 45px;
+        }
+        
+        .card-body.two p:after {
+            content: url(../images/two.png);
+            position: absolute;
+            bottom: 23px;
+            right: 45px;
+        }
+        
+        .card-body.three p:after {
+            content: url(../images/three.png);
+            position: absolute;
+            bottom: 23px;
+            right: 45px;
+        }
+        
+        .red.sec.btn {
+            margin: 70px;
+        }
+        
+        .upperabout {
+            background-color: #e80909;
+            padding: 20px 0 0 0;
+        }
+        
+        .second-sec-content h3 {
+            text-align: center;
+            margin: 0px 0 16px 0;
+            font-size: 55px;
+        }
+        /* lower About page */
+        
+        .lowerabout {
+            background-image: url("../images/aboutUs-bg_02.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .lowerabouttext {
+            padding: 145px 0;
+            color: white;
+            line-height: 29px;
+        }
+        
+        .lowerabouttext h2 {
+            font-size: 55px;
+            font-family: transcend-thin;
+            font-weight: 600;
+        }
+        
+        .lowerabouttext div a {
+            background-color: red;
+            padding: 12px 45px;
+            color: white;
+            text-align: center;
+            border: none;
+            display: inline-block;
+            max-width: 199px;
+            margin-top: 55px;
+            text-transform: uppercase;
+            font-family: times new roman;
+        }
+        
+        .lowerabouttext a:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        /* contact us  */
+        
+        .form-block input,
+        textarea,
+        a {
+            width: 100%;
+            margin: 8px 0 10px 0;
+        }
+        
+        .video-icon a i {
+            position: relative;
+            bottom: 21rem;
+            left: 14rem;
+            border: 10px solid white;
+            padding: 30px 34px;
+            border-radius: 50%;
+            font-size: 41px;
+            color: white;
+        }
+        
+        .contactUs-form {
+            background-color: #ffffff;
+            width: 520px;
+            height: 523px;
+            padding: 48px 43px;
+        }
+        
+        form input {
+            width: 214px;
+            border: 1px solid lightgray;
+            padding: 9px 14px;
+        }
+        
+        textarea {
+            border: 1px solid #bebaba;
+            padding: 12px 0 0 19px;
+        }
+        
+        .contactUs-video img {
+            width: 100%;
+            height: 523px;
+            margin: 9px 0 0 0;
+        }
+        
+        .contactUs-video h2 {
+            font-size: 46px;
+            margin: 0 0 45px 0;
+            font-family: "Times New Roman";
+            font-weight: 500;
+        }
+        
+        .form-block a {
+            background-color: red;
+            width: 100%;
+            display: inline-block;
+            padding: 15px 0;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-family: transcend-thin;
+        }
+        
+        .form-block a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+        }
+        
+        .contactUs-div h2 {
+            margin: 0 0 55px 0;
+            font-size: 46px;
+            font-family: times new roman;
+            font-weight: 500;
+        }
+        
+        .ContactUs {
+            background-image: url("../images/contactUs-bg-home.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 120px 0;
+        }
+        
+        .lowerfooter .container {
+            display: flex;
+            align-items: center;
+            color: rgb(255, 255, 255);
+            justify-content: space-between;
+        }
+        
+        .lowerfooter {
+            border-top: 1px solid gray;
+            padding: 19px 0 0 0;
+        }
+        
+        ul li {
+            list-style-type: none;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+        }
+        
+        .footerAboutUs h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+        
+        .site-links h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+        
+        .contact-us h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+        
+        .connected h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+        }
+        
+        .upperfooter {
+            padding: 64px;
+        }
+        
+        .site-links ul li a {
+            color: white;
+        }
+        
+        .contact-us ul li a {
+            color: white;
+            margin: 12px 22px;
+        }
+        
+        .site-links ul li,
+        .contact-us ul li {
+            margin-left: -37px;
+        }
+        
+        @media only screen and (min-device-width: 520px) and (max-device-width: 767px) and (orientation: portrait) {}
+        
+        @media only screen and (min-device-width: 120px) and (max-device-width: 750px) and (orientation: landscape) {}
+        
+        @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: portrait) {}
+        
+        @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: landscape) {}
+        
+        @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: portrait) {}
+        
+        @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: landscape) {}
+        
+        @media only screen and (min-width: 1366px) and (max-width: 1920px) {}
+        
+        @media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px) {}
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px) {}
+        
+        @media only screen and (min-width: 520px) and (max-width: 767px) {}
+        
+        @media only screen and (min-width: 300px) and (max-width: 519px) {}
