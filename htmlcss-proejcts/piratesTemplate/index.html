@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+    <link rel="icon" href="images/fav-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="mainHeader">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="./images/logo.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="nav-sec">
+                            <div class="nav-links">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#roadMap">RoadMap</a></li>
+                                    <li>
+                                        <a href="#"><img src="./images/fl-icon.png"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="./images/me.png"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <ul>
+                                    <li>
+                                        <a><img src="./images/wallet.png"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="banner-img">
+                        <img src="./images/pirate-new.png">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="banner-txt">
+                        <h6>Degenarate Pirates Club</h6>
+                        <h2>HOLD TO EARN</h2>
+                        <ul>
+                            <li><a href="story.html" class="yellowBtn">View story</a></li>
+                            <li><a href="mint.html" class="whiteBtn">Mint NFT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="scrolldown">
+                <a href="#footer">
+                    <i class='fa fa-arrow-down' style='font-size:24px'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="pirate-club-sec">
+        <div class="container">
+            <div class="pirate-club">
+                <p>what is the</p>
+                <h5>
+                    Degenerate
+                    <span>Pirates club</span>
+                </h5>
+                <p>In a run-down rum distillery, beside a row of dusty barrels, sits an old man with a parrot on his shoulder. Every evening he takes men and women through a secret door—hidden behind the dusty barrels—down a flight of stairs and into the
+                    Degenerate Pirates Club.
+                </p>
+                <p>It is a cathedral-like space hung with rum-bottle lanterns. All manner of objects are being used as tables—barrels, carriage wheels, even upturned boats. In the back sits a bar made of a broken mast, studded with swords, daggers, and shattered
+                    pistols. There is a bartender but he doesn’t make the drinks. Instead, he whistles as a pair of monkeys appear from behind the liquor rack. They screech and prattle as they pour drinks for rowdy pirates. Should anyone neglect to pay
+                    the monkeys, the bartender would set his glass down and get involved.
+                </p>
+                <a href="story.html" class="ReadmoreBtn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <section class="roadMap-sec" id="roadMap">
+        <div class="container">
+            <div class="roadMapHeading">
+                <h3>RoadMap</h3>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <div class="road-tab">
+                        <p>Members only</p>
+                        <button onclick="openCity(event, 'one')" href="" class="tablinks" id="defaultOpen">01</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="road-tab">
+                        <p>Members only</p>
+                        <button onclick="openCity(event, 'two')" href="" class="tablinks">02</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="road-tab">
+                        <p>Members only</p>
+                        <button onclick="openCity(event, 'three')" href="" class="tablinks">03</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="road-tab">
+                        <p>Members only</p>
+                        <button onclick="openCity(event, 'four')" href="" class="tablinks">04</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="road-tab">
+                        <p>Members only</p>
+                        <button class="tablinks" onclick="openCity(event, 'five')" href="" class="tablinks active">05</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="roadMap-content">
+                <div class="tabContent">
+                    <div id="one" class="tab-content">
+                        <div class="tab-num">
+                            <span>01</span>
+                        </div>
+                        <div class="tab-text">
+                            <p>An exclusive Pirate-themed club where pass holders can meet and connect with like-minded developers and creatives. The club will feature daily discussions revolving around NFTs. A place for finding support, information, and
+                                inspiration.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="two" class="tab-content">
+                        <div class="tab-num">
+                            <span>02</span>
+                        </div>
+                        <div class="tab-text">
+                            <p>We appreciate our holders! As a sign of our gratitude, we will be taking 5% of secondary marketplace sales and dividing it evenly among all holders.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="three" class="tab-content">
+                        <div class="tab-num">
+                            <span>03</span>
+                        </div>
+                        <div class="tab-text">
+                            <p>All holders of our first collection will receive automatic whitelist for our next collection, holding both will give our holders an income from our Degen Russian Roulette Game.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="four" class="tab-content">
+                        <div class="tab-num">
+                            <span>04</span>
+                        </div>
+                        <div class="tab-text">
+                            <p>
+                                An exclusive DPC lottery will be held every month where lucky holders can win up to 50 SOL!
+                            </p>
+                        </div>
+                    </div>
+                    <div id="five" class="tab-content">
+                        <div class="tab-num">
+                            <span>05</span>
+                        </div>
+                        <div class="tab-text">
+                            <p>The holy grail for our holders to earn money just by holding our collections, Choose your odds and pull the trigger for a chance to win big. If your barrel is empty, you win! If it’s not, you get shot! DPC holders will receive
+                                a percentage of all game sales
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="connect-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="connect-text">
+                        <h6>learn from us</h6>
+                        <h4>CONNECT OUR DISCORD COMMUNITY</h4>
+                        <p>Set up an Ethereum Wallet. The first step in your NFT journey is to create digital wallet where you’ll secur- store the crypto currency that is used to buy,sell, and create NFTs</p>
+                        <a href="#">
+                            Join Discord
+                            <img src="./images/dicord.png" class="discord">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="connect-img">
+                        <img src="./images/pirate-2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="art-gal-sec">
+        <div class="container">
+            <div class="art-gal-txt">
+                <h5>View Art Gallery</h5>
+                <ul>
+                    <li>
+                        <img src="./images/solanart.png">
+                    </li>
+                    <li>
+                        <img src="./images/magic.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="ftrTop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="ftr-logo">
+                            <img src="./images/ftr-logo.png">
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <div class="ftrlinkheading">
+                            <h2>Join Our Community</h2>
+                        </div>
+                        <div class="ftr-social-link">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-github-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram "></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ftr bottom">
+            <h5>© 2022 Degenerate Pirates Club. All rights reserved</h5>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- javascript -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
