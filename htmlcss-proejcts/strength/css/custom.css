@@ -1,0 +1,714 @@
+            @charset "utf-8";
+            /* CSS Document */
+            
+            @font-face {
+                font-family: the Macabre;
+                src: url("../Fonts/The\ Macabre.otf");
+            }
+            
+            @font-face {
+                font-family: oswald;
+                src: url("../Fonts/Oswald-Bold.ttf");
+            }
+            
+            @font-face {
+                font-family: oswaldLight;
+                src: url("../Fonts/Oswald-Light.ttf");
+            }
+            
+            @font-face {
+                font-family: poppins regular;
+                src: url("../Fonts/Poppins-Regular.ttf");
+            }
+            
+            @font-face {
+                font-family: transcend-regular;
+                src: url("../Fonts/FontsFree-Net-transcend-regular.ttf");
+            }
+            
+            body,
+            html {
+                height: 100%;
+            }
+            
+            body {
+                background: #fff;
+            }
+            
+            ul,
+            li {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: 'Montserrat', sans-serif;
+            }
+            
+            p {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .upper-header {
+                background-color: #ff7e00;
+            }
+            
+            .first>div>a {
+                display: flex;
+                align-items: baseline;
+                margin-top: 12px;
+                padding: 10px 0px 0 8px;
+                color: white;
+            }
+            
+            .first>div>a:hover {
+                text-decoration: none;
+            }
+            
+            input.form-control.header-search-bar {
+                height: 49px;
+            }
+            
+            .first {
+                display: flex;
+                justify-content: end;
+            }
+            
+            .third a {
+                display: flex;
+                align-items: baseline;
+                color: #fff;
+                margin-left: -31px;
+            }
+            
+            .third a:hover {
+                color: #fff;
+                text-decoration: none;
+            }
+            
+            .third {
+                margin-top: 18px;
+            }
+            
+            .lower-header {
+                margin-top: 27px;
+            }
+            
+            .lower-header .logo {
+                font-family: 'oswaldLight';
+            }
+            
+            .search-bar .input-group {
+                width: 474px;
+                height: 51px;
+                border: 1px solid lightgray;
+            }
+            /* nav links */
+            
+            .nav-links ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .nav-links {
+                margin-left: -200px;
+                /* margin-top: 23px; */
+                font-family: poppins regular;
+                font-size: 17px;
+            }
+            
+            h2.logo-text {
+                font-weight: 900;
+                line-height: 14px;
+                font-size: 36px;
+            }
+            
+            .nav-links ul li a {
+                padding: 0 0 0 55px;
+                color: #040101;
+            }
+            
+            .input-group-append .input-group-text {
+                background-color: #fff;
+                border: none;
+            }
+            
+            .search-bar .form-control {
+                border: none;
+            }
+            
+            span i.fa.fa-search {
+                font-size: 29px;
+            }
+            
+            .search-bar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .icons {
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+            }
+            
+            .icons>div {
+                padding: 20px;
+            }
+            
+            .first-sec {
+                background-image: url("../images/front-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 922px;
+            }
+            
+            .first-sec .heading span {
+                font-family: the Macabre;
+                font-family: the Macabre;
+                font-size: 164px;
+                color: #ff7e00;
+            }
+            
+            .first-sec .heading h1 {
+                font-size: 90px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 300;
+                font-family: oswald;
+                text-align: center;
+                padding-top: 31px;
+            }
+            
+            .kangfoo-suit {
+                margin-top: -71px;
+            }
+            
+            .red-boxer {
+                position: absolute;
+                bottom: 217px;
+                right: 101px;
+                background-color: #fff;
+                width: 359px;
+                height: 359px;
+                padding: 46px;
+                border-radius: 50%;
+                text-align: center;
+                box-shadow: 0px 0px 3px 0px;
+            }
+            
+            .boxer-mask {
+                position: absolute;
+                bottom: 217px;
+                left: 101px;
+                background-color: #fff;
+                width: 359px;
+                height: 359px;
+                padding: 46px;
+                border-radius: 50%;
+                text-align: center;
+                box-shadow: 0px 0px 3px 0px;
+            }
+            
+            section.about-us {
+                margin-top: 354px;
+                text-align: center;
+                padding-bottom: 44px;
+            }
+            
+            section.about-us .content a {
+                background-color: #ff7e00;
+                width: 151px;
+                height: 43px;
+                text-decoration: none;
+                color: #fff;
+                text-align: center;
+                display: inline-block;
+                padding: 9px 0 0 0;
+            }
+            
+            section.about-us .content h1 {
+                font-family: 'oswald';
+                color: #524747;
+            }
+            
+            p.about-us-text {
+                color: #ff7e00;
+                font-weight: 700;
+                font-family: 'oswald';
+            }
+            
+            section.product {
+                background-color: #f0f0f0;
+                padding-bottom: 120px;
+            }
+            
+            .card1 img {
+                max-width: 100%;
+                height: 250px;
+                padding: 12px;
+                /* background-color: #ffff; */
+            }
+            
+            .img-sec {
+                background-color: #fff;
+                text-align: center;
+                height: 312px;
+                padding-top: 40px;
+                width: 434px;
+            }
+            
+            .card1 .disc {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 23px;
+            }
+            
+            section.product .heading h2 {
+                font-family: 'oswald';
+                text-align: center;
+                font-size: 43px;
+                padding: 99px 0 49px 0;
+            }
+            
+            .disc .price {
+                color: #ff7e00;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            
+            .disc p.name {
+                font-size: 23px;
+                color: #8a8181;
+            }
+            
+            section.fourth-sec {
+                background-color: #e2e2e2;
+            }
+            
+            .blackGloves-img-sec {
+                text-align: center;
+                margin: 25px 0;
+            }
+            
+            .black-boxing-gloves .heading h2 {
+                font-family: 'the Macabre';
+                text-align: center;
+                font-size: 62px;
+            }
+            
+            .black-boxing-gloves {
+                text-align: center;
+            }
+            
+            .black-boxing-gloves .heading p {
+                font-family: 'oswaldLight';
+                color: #ff7e00;
+                font-size: 26px;
+                font-weight: 400;
+            }
+            
+            .black-boxing-gloves {
+                text-align: center;
+                margin-top: 29px;
+            }
+            
+            .black-boxing-gloves .text-btn a {
+                color: #fff;
+                background-color: #ff7e00;
+                display: inline-block;
+                width: 148px;
+                height: 52px;
+                padding: 16px;
+                text-decoration: none;
+            }
+            
+            .brown-boxing-gloves .card {
+                width: 50%;
+            }
+            
+            .brown-boxing-gloves .card-body h4 {
+                font-family: transcend-regular;
+                color: #fff;
+                font-size: 23px;
+            }
+            
+            .brown-boxing-gloves .card-body {
+                background-color: #171717;
+                color: #838383;
+            }
+            
+            .brown-boxing-gloves .card-body a {
+                background-color: #ff7e00;
+                border-radius: 0;
+                color: #fff;
+                width: 123px;
+                font-weight: 600;
+                height: 42px;
+            }
+            
+            .brown-boxing-gloves .card-body {
+                display: flex;
+                flex-direction: column;
+                align-items: baseline;
+                justify-content: center;
+                padding: 0 57px;
+            }
+            
+            .our-product-card-img img {
+                max-width: 100%;
+                height: 230px;
+                margin: 40px 0 0 0px;
+            }
+            
+            .our-product-card-img {
+                text-align: center;
+                background-color: #f4f4f4;
+                height: 346px;
+            }
+            
+            .our-product-heading h1 {
+                text-align: center;
+                font-family: 'oswaldLight';
+                font-weight: 700;
+                padding: 65px 0 24px 0;
+            }
+            
+            .our-product-card-disc {
+                text-align: center;
+                line-height: 0;
+                margin-top: 32px;
+                color: #908e8e;
+            }
+            
+            .our-product-card:hover {
+                background-color: #fff;
+                box-shadow: 0px 1px 5px 0px;
+                padding-bottom: 45px;
+            }
+            
+            .our-product-card:hover .our-product-card-disc {
+                text-align: center;
+                line-height: 0;
+                margin-top: 32px;
+                color: #908e8e;
+                margin-top: -52px;
+            }
+            
+            .our-product-card .shop-now {
+                display: none;
+            }
+            
+            .our-product-card:hover .shop-now {
+                display: block;
+                text-align: center;
+            }
+            
+            .our-product-card:hover .our-product-card-img {
+                text-align: center;
+                background-color: #ffffff;
+                height: 346px;
+            }
+            
+            .shop-now a {
+                background-color: #ff7e00;
+                display: inline-block;
+                width: 119px;
+                height: 34px;
+                padding: 4px 0 0 0;
+                color: #fff;
+            }
+            
+            .shop-now a:hover {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            .withRocktough {
+                position: relative;
+                bottom: 409px;
+                left: 542px;
+            }
+            
+            section.sixth .main-text p {
+                font-family: 'oswald';
+                font-size: 95px;
+                text-transform: uppercase;
+                text-align: center;
+                line-height: 0px;
+                margin: 110px 0 0 0;
+                position: relative;
+                left: -140px;
+            }
+            
+            section.sixth .main-text {
+                padding-top: 60px;
+            }
+            
+            .text {
+                margin-right: 38px;
+            }
+            
+            .permission-text {
+                float: right;
+                margin-right: 323px;
+            }
+            
+            .permission-text p {
+                position: relative;
+                top: 25px;
+                font-family: 'the Macabre';
+                font-size: 168px;
+                color: #b0001c;
+            }
+            
+            .sixth .text .btn {
+                float: right;
+                position: relative;
+                top: 311px;
+                left: 551px;
+            }
+            
+            .sixth .text .btn a {
+                background-color: #ff7e00;
+                display: inline-block;
+                width: 141px;
+                height: 38px;
+                color: #fff;
+                text-align: center;
+                padding: 8px 0 0px 0;
+                text-decoration: none;
+            }
+            
+            section.sixth {
+                padding: 124px 6px 0px 58px;
+                height: 938px;
+            }
+            
+            .best-seller-left {
+                background-image: url("../images/best-seller-left.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 799px;
+                text-align: center;
+            }
+            
+            .best-seller-right {
+                background-image: url("../images/best-seller-rigth.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 799px;
+                text-align: center;
+            }
+            
+            .best-seller-left p {
+                color: #fff;
+            }
+            
+            .best-seller-left p,
+            .best-seller-right p {
+                color: #fff;
+                position: relative;
+                top: 700px;
+                font-family: 'oswald';
+                font-size: 53px;
+            }
+            
+            section.best-seller .heading {
+                text-align: center;
+                font-size: 37px;
+                padding: 19px 0;
+            }
+            
+            section.best-seller .heading p {
+                font-family: 'oswald';
+            }
+            
+            .avatar {
+                width: 23%;
+                border-radius: 50%;
+            }
+            
+            section.our-client-review .upper {
+                display: flex;
+                align-items: center;
+            }
+            
+            .rating-sec {
+                line-height: 0px;
+                padding-left: 24px;
+            }
+            
+            .slider-card {
+                padding: 34px 121px;
+                position: relative;
+                padding: 34px 29px;
+                background-color: #f7f7f7;
+                margin: 0px 10px;
+            }
+            
+            .slider-card .lower {
+                padding-top: 68px;
+            }
+            
+            .slider-card .lower:before {
+                content: url("../images/quotation-mark.png");
+                position: absolute;
+                bottom: 74px;
+            }
+            
+            .slider.responsive {
+                margin-top: 148px;
+            }
+            
+            .checked {
+                color: #ff7e00;
+            }
+            
+            footer {
+                background-color: black;
+                color: #fff;
+                padding: 47px 0 0 0;
+                /* margin-top: 148px; */
+            }
+            
+            .footer-links .link {
+                display: flex;
+                align-items: baseline;
+                justify-content: flex-start;
+                margin-left: -6px;
+            }
+            
+            .footer-links .link img {
+                margin-left: -34px;
+            }
+            
+            .footer-links a {
+                color: #9a9a9a;
+                text-decoration: none;
+                line-height: 34px;
+                font-weight: 600;
+            }
+            
+            .footer-links a:hover {
+                color: #9a9a9a;
+                text-decoration: none;
+            }
+            
+            .footer-links .heading p {
+                font-size: 21px;
+                text-transform: uppercase;
+                text-align: left;
+            }
+            
+            .footer-payment-cards .icons a {
+                padding-left: 8px;
+            }
+            
+            footer hr {
+                background-color: #9c9898;
+            }
+            
+            .signUp,
+            .footer-payment-cards {
+                text-align: left;
+            }
+            
+            .signUp,
+            .footer-payment-cards,
+            .footer-media-icons {
+                text-align: left;
+                padding: 48px;
+            }
+            
+            .signUp,
+            .footer-payment-cards {
+                border-right: 1px solid #605b5b;
+                height: 163px;
+            }
+            
+            footer .lower {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: #090909;
+                padding-top: 15px;
+                color: #454545;
+                font-weight: 600;
+            }
+            
+            footer .footer-input {
+                background-color: #303030;
+                border: none;
+            }
+            
+            footer .footer-input:focus {
+                background-color: #303030;
+                border: none;
+            }
+            
+            hr.right-line {
+                transform: rotate(90deg);
+                position: relative;
+                right: -60px;
+                bottom: 124px;
+                width: 212px;
+            }
+            
+            hr.special-right-line {
+                transform: rotate(90deg);
+                position: relative;
+                left: 59px;
+                bottom: 58px;
+                width: 209px;
+                background-color: #5d5c5c;
+            }
+            
+            .our-client-review-heading h3 {
+                text-align: center;
+                font-family: 'oswaldLight';
+                font-weight: 800;
+                font-size: 47px;
+                padding: 78px 0 26px 0;
+            }
+            
+            .input-email span a {
+                color: #000;
+                text-decoration: none;
+            }
+            
+            @media only screen and (min-device-width: 520px) and (max-device-width: 767px) and (orientation: portrait) {}
+            
+            @media only screen and (min-device-width: 120px) and (max-device-width: 750px) and (orientation: landscape) {}
+            
+            @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: portrait) {}
+            
+            @media only screen and (min-device-width: 751px) and (max-device-width: 999px) and (orientation: landscape) {}
+            
+            @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: portrait) {}
+            
+            @media only screen and (min-device-width: 1000px) and (max-device-width: 1030px) and (orientation: landscape) {}
+            
+            @media only screen and (min-width: 1366px) and (max-width: 1920px) {}
+            
+            @media only screen and (min-width: 1200px) and (max-width: 1365px) {}
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199px) {}
+            
+            @media only screen and (min-width: 768px) and (max-width: 991px) {}
+            
+            @media only screen and (min-width: 520px) and (max-width: 767px) {}
+            
+            @media only screen and (min-width: 300px) and (max-width: 519px) {}
