@@ -1,0 +1,440 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/321impact.txt") format("truetype");
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+}
+
+.Home {
+    background-image: url("frontImg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav-brand img {
+    width: 7rem;
+}
+
+.welcomeText {
+    color: white;
+    margin-left: -4rem;
+    margin-top: 14rem;
+}
+
+.welcomeText button {
+    padding: 13px;
+    font-weight: bolder;
+    width: 18rem;
+    background-color: wheat;
+    border: none;
+    color: #4c0909;
+}
+
+.bkguns {
+    font-family: "Gilroy-Bold";
+}
+
+.card button {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: #800707;
+    color: white;
+    font-weight: bolder;
+}
+
+.navRow {
+    padding: 1rem 0 0 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 9rem;
+}
+
+.navLinks {
+    margin-left: -17rem;
+}
+
+.img1 img {
+    margin-left: -31rem;
+    height: 980px;
+    width: 32rem;
+}
+
+.img1 .imgText {
+    position: relative;
+    right: 26rem;
+    bottom: 8rem;
+    text-align: center;
+}
+
+.img2 img {
+    height: 526px;
+    width: 65rem;
+    margin-left: -21rem;
+}
+
+.img2 .imgText {
+    display: flex;
+    margin-left: -28rem;
+    gap: 23rem;
+    position: relative;
+    bottom: 9rem;
+    left: 11rem;
+}
+
+.img3 img {
+    height: 522px;
+    width: 32rem;
+    margin-left: 214px;
+}
+
+.img3 .imgText {
+    position: relative;
+    margin-left: -5rem;
+    left: 25rem;
+    text-align: center;
+    bottom: 12rem;
+}
+
+.img4 img {
+    height: 427px;
+    width: 35rem;
+    margin: -4rem 0 0 -21rem;
+}
+
+.img4 .imgText {
+    position: relative;
+    right: 10rem;
+    bottom: 9rem;
+    margin: 0 0 0 -5rem;
+    text-align: center;
+}
+
+.img5 img {
+    height: 428px;
+    width: 62rem;
+    margin: -4rem 0 0 0;
+}
+
+.img5 .imgText {
+    position: relative;
+    left: 32rem;
+    bottom: 17rem;
+}
+
+.img5 .imgText h1 {
+    color: black;
+}
+
+
+/* .imgText {
+        position: relative;
+        bottom: 7rem;
+        left: 3rem;
+        text-align: center;
+    } */
+
+.imgText h1 {
+    color: rgb(241, 239, 235);
+    font-weight: bolder;
+}
+
+.imgText button {
+    padding: 8px;
+    width: 15rem;
+    background-color: wheat;
+    color: #720303;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card-deck {
+    width: 95rem;
+    margin-left: -14rem;
+}
+
+.card {
+    height: 40rem;
+}
+
+img.card-img-top {
+    height: 25rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.cardPrice {
+    color: #720303;
+    font-size: 2rem;
+}
+
+.card button {
+    width: 100%;
+}
+
+a.likeProduct {
+    position: relative;
+    bottom: 24rem;
+    margin-bottom: -36px;
+    left: 19rem;
+    color: #720303;
+    font-size: 27px;
+}
+
+
+/* fourth section */
+
+.fourthSection {
+    margin-top: 5rem;
+    background-color: #720303;
+}
+
+.fourthSectionImg img {
+    width: 66rem;
+}
+
+.fourthSectionText {
+    margin: 14rem 0 0 -37rem;
+    text-align: center;
+    padding: 0rem 19rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.fourtSectionTextChild {
+    text-align: left;
+}
+
+p.sale {
+    color: white;
+    margin: 0px 0px -65px 0;
+    font-size: 2rem;
+}
+
+p.FiftyPercent {
+    font-size: 16rem;
+    color: wheat;
+}
+
+.fourthSectionTextToday {
+    position: relative;
+    left: 12rem;
+    bottom: 29rem;
+    font-size: 5rem;
+    color: white;
+    display: block;
+    transform: rotate(269deg);
+}
+
+p.fourthSectionLorem {
+    margin: -12rem 0 40px 0;
+    color: white;
+    font-size: 20px;
+}
+
+button.fourthSectionTextBtn {
+    padding: 14px;
+    background-color: wheat;
+    width: 16rem;
+    font-weight: bold;
+    font-size: 26px;
+    color: #720303;
+}
+
+
+/* fourth section */
+
+.fifthSection {
+    background-image: url("fifthSectionImg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 66%;
+    margin-top: 3rem;
+}
+
+.fifthSectionText {
+    padding-top: 15rem;
+    text-align: center;
+    margin: 0 10rem;
+}
+
+p.fifthSectionHeading {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #edc595;
+}
+
+p.fifthSectionpara {
+    color: white;
+}
+
+button.fifthSectionBtn {
+    width: 18rem;
+    padding: 1rem;
+    background-color: #720303;
+    color: bisque;
+    font-size: 27px;
+    font-family: 'Bebas Neue';
+    border: none;
+}
+
+
+/* sixth Section */
+
+.sixthSection {
+    margin-top: 12rem;
+}
+
+.sixthSectioHeading h1 {
+    position: relative;
+    bottom: 6rem;
+    left: 25rem;
+    font-size: 3rem;
+}
+
+.thirdSectioHeading {
+    position: relative;
+    bottom: 3rem;
+    left: 22rem;
+}
+
+
+/* sixth Section */
+
+
+/* seventh section */
+
+.seventhSection {
+    margin: 9rem 0 0 0px;
+}
+
+.seventhSectionHeading h1 {
+    margin: 17rem 191px 36px 17rem;
+    padding: 0rem 210px;
+    font-family: 'Bebas Neue';
+    font-size: 111px;
+    text-align: center;
+}
+
+.seventhSection img {
+    width: 100%;
+    height: auto;
+}
+
+.image:hover .overlay {
+    opacity: 0.3;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 100%;
+    width: 94%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: red;
+}
+
+.icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.fa-camera:hover {
+    color: #eee;
+}
+
+
+/* footer  */
+
+footer {
+    background-color: black;
+    margin-top: 2rem;
+    height: 45rem;
+}
+
+.upper ul {
+    list-style: none;
+    line-height: 2rem;
+    padding: 3rem 0 0 0px;
+    color: white;
+    font-size: larger;
+}
+
+.upper ul li a {
+    color: white;
+    font-size: 15px;
+}
+
+li.footerHeading {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.middle {
+    margin: 5rem 0 0 0;
+    background-color: #060505;
+    width: 100%;
+    padding: 4rem 24rem;
+    color: white;
+}
+
+button.inputArrow {
+    position: absolute;
+    right: 14px;
+    background-color: wheat;
+    padding: 8px 25px;
+    border-radius: 0 28px 32px 0px;
+    color: #121111;
+    font-size: 14px;
+    border: none;
+}
+
+input.middleInput {
+    border: none;
+    border-radius: 1rem;
+    padding: 7px;
+    width: 100%;
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
