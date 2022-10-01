@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/fancybox.min.css" />
+
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="container-fluid navBar">
+        <div class="mylogo">
+          <a href="index.html"><img src="./images/Logo.png" /> </a>
+        </div>
+        <div class="hdr-menu">
+          <ul>
+            <li class="active"><a href="#">Success stories</a></li>
+            <li><a href="#">Top Reate store</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li class="login-btn"><a href="#">LOGIN</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <section>
+      <div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 text-col">
+            <div class="text-sec">
+              <div class="text">
+                <p>Dropshipping Has</p>
+                <p>Never Been Easier Start</p>
+                <p>Your <span>Dropshipping</span></p>
+                <p>Business Within</p>
+                <p><span>2 Simple Clicks.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-12 strap-col">
+            <div class="strap">
+              <div class="catogories">
+                <div class="heading">
+                  <p>Category</p>
+                </div>
+                <div class="strap-links">
+                  <ul>
+                    <li>
+                      <button href="/" class="next" onclick="JewlleryTab('jewllery')">
+                        <img src="./images/diamond.png" />
+                        Jewelry & Watches
+                        <img src="./images/goto.png" />
+                      </button>
+                    </li>
+                    <li>
+                      <button href="/"  class="next" onclick="ToysTab('toys')">
+                        <img src="./images//ball.png" />
+                        Toys, Kids & Babies
+                        <img src="./images/goto.png" />
+                      </button>
+                    </li>
+                    <li>
+                      <button href="/"  class="next" onclick="HealthTab('health')">
+                        <img src="./images/heart.png" />
+                        Health, Beauty & Hair
+                        <img src="./images/goto.png" />
+                      </button>
+                    </li>
+                    <li>
+                      <button href="/"  class="next" onclick="ClothingTab('clothing')">
+                        <img src="./images/diamond.png" />
+                        Women's Clothing
+                        <img src="./images/goto.png" />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Fieldsets start from here -->
+                <form id="msform" >
+                  <fieldset id="jewllery"  class="tabcontent">
+                    <h2 class="fs-title">Personal Details</h2>
+                    <h3 class="fs-subtitle">
+                      Tell us something more about you 1
+                    </h3>
+                    <button href="/" onclick="prev()">previous</button>
+                  </fieldset>
+                  <fieldset id="toys"  class="tabcontent">
+                    <h2 class="fs-title">Personal Details</h2>
+                    <h3 class="fs-subtitle">
+                      Tell us something more about you 2
+                    </h3>
+                    <button href="/" onclick="prev()">previous</button>
+                  </fieldset>
+                  <fieldset id="health"  class="tabcontent">
+                    <h2 class="fs-title">Personal Details</h2>
+                    <h3 class="fs-subtitle">
+                      Tell us something more about you 3
+                    </h3>
+                    <button href="/" onclick="prev()">previous</button>
+                  </fieldset>
+                  <fieldset id="clothing"  class="tabcontent">
+                    <h2 class="fs-title">Personal Details</h2>
+                    <h3 class="fs-subtitle">
+                      Tell us something more about you 4
+                    </h3>
+                    <button href="/" onclick="prev()">previous</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <div class="image-sec">
+              <div class="main-img">
+                <div class="left-img">
+                  <img src="./images/chair.png" />
+                </div>
+                <img src="./images/headphone.png" />
+                <div class="right-img">
+                  <img src="./images/Graph.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
