@@ -22,10 +22,18 @@ $('.responsive').slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 500,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true
       }
     }
     // You can unslick at a given breakpoint now by adding:

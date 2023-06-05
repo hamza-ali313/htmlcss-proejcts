@@ -117,50 +117,57 @@ a.nav-item.nav-link.emergency-btn {
   font-family: poppinsSemiBold;
 }
 .hero-sec .text-sec {
-    padding: 43px 0px 311px 0px;
+  padding: 43px 0px 311px 0px;
 }
 section.hero-sec select {
-    background: #c3c3c361;
-    width: 100%;
-    border: none;
-    padding: 16px 17px;
-    border-radius: 32px;
-    outline: none;
+  background: #c3c3c361;
+  width: 100%;
+  border: none;
+  padding: 16px 17px;
+  border-radius: 32px;
+  outline: none;
 }
 .btns-sec {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    border: 1px solid #dcdcdc;
-    border-radius: 41px;
-    padding: 12px 20px;
-    width: 75%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border: 1px solid #dcdcdc;
+  border-radius: 41px;
+  padding: 12px 20px;
+  width: 75%;
+  margin: 0 auto;
 }
 .visa-type-sec .simple-btns .visa-btn {
-    border: none;
-    background-color: #fff;
-    border-radius: 23px;
-    padding: 5px 21px;
-    outline: none;
-    transition: 0.5s;
+  border: none;
+  background-color: #fff;
+  border-radius: 23px;
+  padding: 5px 21px;
+  outline: none;
+  transition: 0.5s;
 }
-.current{
+
+.current {
   background-color: #719ac7 !important;
-  color: #fff !important; 
+  color: #fff !important;
 }
-.currentLabel{
+.currentLabel {
   color: #719ac7;
 }
 .visa-type-sec .heading {
   text-align: center;
+}
+.visa-type-sec .radio-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
 }
 section.visa-type-sec {
   background-color: #f7f7f7;
   padding: 107px 0;
 }
 .visa-type-slider {
-    margin-top: 51px;
+  margin-top: 51px;
 }
 .visa-slide img {
   display: inline-block !important;
@@ -197,7 +204,7 @@ section.visa-type-sec {
   transition: 0.5s;
 }
 .visa-slide:hover {
-    box-shadow: rgb(0 0 0 / 35%) 0px 4px 8px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 4px 8px;
 }
 a.proceed {
   color: #fff !important;
@@ -207,13 +214,13 @@ a.proceed {
   font-family: "poppinsSemiBold";
 }
 section.apply-sec .cards-sec {
-    margin-top: 69px;
+  margin-top: 69px;
 }
 .apply-sec .heading p {
   text-align: center;
 }
 section.apply-sec {
-    padding: 98px 0;
+  padding: 98px 0;
 }
 .apply-card {
   background-color: #f9f9f9;
@@ -221,13 +228,13 @@ section.apply-sec {
   border-radius: 15px;
   transition: 0.5s;
 }
-.apply-card:hover{
-    background-color: #fff;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.apply-card:hover {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.apply-card:hover .apply-card img{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-} 
+.apply-card:hover .apply-card img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 .apply-sec .heading p span {
   font-family: "poppinsSemiBold";
 }
@@ -268,18 +275,17 @@ section.apply-sec {
   border-radius: 13px;
 }
 section.free-consultation-sec .heading h4 span {
-    font-family: 'poppinsSemiBold';
+  font-family: "poppinsSemiBold";
 }
 section.free-consultation-sec .heading h4 {
-    font-size: 39px;
-    font-family: 'poppinsLight';
+  font-size: 39px;
+  font-family: "poppinsLight";
 }
 .free-consultation-sec {
   background-image: url("../images/form-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 .free-consultation-sec .container {
   display: flex;
@@ -297,9 +303,9 @@ section.free-consultation-sec .heading h4 {
   outline: none;
 }
 section.free-consultation-sec .heading p {
-    color: #c3c3c3;
-    font-family: 'poppinsLight';
-    font-size: 14px;
+  color: #c3c3c3;
+  font-family: "poppinsLight";
+  font-size: 14px;
 }
 .Email-field input {
   margin: 7px 0 0 0;
@@ -320,15 +326,15 @@ section.free-consultation-sec .heading p {
   outline: none;
 }
 .submit-btn input {
-    padding: 9px 29px;
-    border: none;
-    color: #fff;
-    border-radius: 23px;
-    background-color: #719ac7;
-    font-size: 13px;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin-top: 14px;
+  padding: 9px 29px;
+  border: none;
+  color: #fff;
+  border-radius: 23px;
+  background-color: #719ac7;
+  font-size: 13px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 14px;
 }
 footer .lower .container {
   display: flex;
@@ -339,7 +345,9 @@ footer .lower {
   background-color: #030303;
   padding: 21px 0 7px 0;
   color: #fff;
-  
+}
+.visa-slide img {
+  width: 85%;
 }
 footer .upper {
   background-color: #080808;
@@ -347,9 +355,9 @@ footer .upper {
   color: #fff;
 }
 footer .upper .links li a {
-    color: #fff !important;
-    font-size: 15px;
-    font-family: 'poppinsLight';
+  color: #fff !important;
+  font-size: 15px;
+  font-family: "poppinsLight";
 }
 .apply-btn-sec .container {
   display: flex;
@@ -377,9 +385,9 @@ footer .upper .links li a {
 .apply-btn-sec {
   padding: 38px 0;
 }
-.footer-child {
+/* .footer-child {
   float: right;
-}
+} */
 section.apply-sec {
   padding: 75px 0;
 }
@@ -392,7 +400,7 @@ section.apply-sec {
 .footer-child .social-icons i.fa.fa-facebook {
   padding: 4px 9px;
 }
-.footer-child .social-icons  i.fa.fa-twitter {
+.footer-child .social-icons i.fa.fa-twitter {
   padding: 5px 6px;
 }
 .footer-child .social-icons i.fa.fa-google-plus {
@@ -423,10 +431,71 @@ section.apply-sec {
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 10px 29px !important;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 10px 29px !important;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  .free-consultation-sec form {
+    width: 90%;
+    background-color: #fff;
+    padding: 43px 17px;
+    border-radius: 13px;
+    margin: 32px 0;
+  }
+  
+.btns-sec {
+  width: 100%;
+}
+footer .upper .footer-col:nth-child(1) {
+  order: 2;
+
+}
 }
 @media only screen and (min-width: 520px) and (max-width: 767px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 10px 29px !important;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  footer .upper .footer-col:nth-child(1) {
+    order: 4;
+  }
+  .free-consultation-sec form {
+    margin: 32px 0;
+}
 }
 @media only screen and (min-width: 300px) and (max-width: 519px) {
+  .navbar-light .navbar-nav .nav-link {
+    margin: 10px 29px !important;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  footer {
+    display: grid !important;
+  }
+  footer .upper .footer-col:nth-child(1) {
+    order: 4;
+  }
+  .slick-dots li button:before {
+    font-size: 56px !important;
+    color: #369e53 !important;
+  }
+  .visa-type-sec .radio-btns {
+    display: block;
+  }
+  .visa-type-sec .simple-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .apply-btn-sec .container {
+    display: block;
+  }
 }
