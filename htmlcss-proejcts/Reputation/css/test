@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* html {
+  overflow-x: hidden ;
+} */
+
+a {
+  text-decoration: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* header start */
+
+.main-header {
+  /* background-color: #0a0913; */
+  /* padding: 20px 0; */
+}
+
+.main-header .logo {
+  width: 130px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-header .contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-header .contact .btn-num{color: #1d2f4b;font-size: 15px;margin-top: 3px;font-weight: 500;padding: 0 14px 0 0;position: relative;}
+
+.main-header .contact .btn-num::before{
+  content: "\f095";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 800;
+  font-size: 30px;
+  position: absolute;
+  left: -39px;
+}
+
+.main-header .contact .btn-num span{
+  display: block;
+  color: #717c8b;
+  font-weight: 300;
+}
+
+.main-header .contact .get-con{
+    padding: 24px 18px;
+    background-color: #ce1f20;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+}
+
+/*************** main-banner ****************/
+
+.main-banner{
+  background-image: url(../images/main-banner.jpg);
+  padding: 70px 0;
+  background-size: cover;
+}
+
+.main-banner .title h3{color: #fff;font-size: 29px;font-family: 'Play', sans-serif;font-weight: 400;padding: 0 0 4px;}
+
+.main-banner .title h2{color: #fff;font-size: 47px;font-family: 'Play', sans-serif;font-weight: 700;padding: 0 0 15px;}
+
+.main-banner .title h2 span{
+  color: #ce1f20;
+}
+
+/* banner css start *************************************************************************************/
+.main-banner .ban-left-slide {
+  text-align: center;
+}
+
+.main-banner .theme-btn-e5a {
+  background: #002E5A;
+}
+
+.main-banner .theme-btn-e5a:hover {
+  border-color: #11848e;
+  background-color: #11848e;
+  color: #fff;
+  /* font-weight: 500 !important; */
+}
+
+.main-banner .theme-btn-gre {
+  background: #11848e;
+}
+
+.main-banner .theme-btn-gre:hover {
+  border-color: #fff;
+  background-color: #002E5A;
+  color: #fff;
+}
+
+.main-banner .ban-txt p {
+  width: 70%;
+  text-transform: initial;
+  line-height: 25px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.main-banner .ban-left-slide img {
+  object-fit: contain;
+  display: inline-block;
+  height: auto;
+}
+
+.main-banner .ban-left-slide h2 {
+  font-size: 21px;
+  line-height: 23px;
+  font-family: 'Play', sans-serif;
+  color: #11848e;
+  padding: 0 0px;
+  margin: 10px 0;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.main-banner .ban-left-slider .slick-current+.slick-slide h2 {
+  color: #002E5A;
+}
+
+.main-banner .ban-left-slide a {
+  font-size: 18px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #002E5A;
+  font-weight: 500;
+  padding: 6px 0 0 0;
+  display: inline-block;
+}
+
+.main-banner .ban-left-slide p {
+  font-size: 11px;
+  color: #686868;
+  line-height: 18px;
+}
+
+.main-banner .ban-left-slide {
+  text-align: center;
+  background: #fff;
+  border-radius: 25px;
+  padding: 20px 10px;
+  height: 275px;
+}
+
+.main-banner .ban-left-slider .slick-slide {
+  margin: 0 10px;
+}
+
+.main-banner .ban-btns a {
+  font-size: 18px;
+  padding: 10px 6px;
+  border-radius: 4px;
+  width: 33.33%;
+  display: inline-block;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.main-banner .ban-btns a i {
+  padding: 0 0px 0 20px;
+}
+
+.main-banner .ban-btns {
+  margin: 20px 0 0 0;
+  text-align: center;
+  background: #fff;
+  padding: 14px 15px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+@keyframes float {
+  from {
+      transform: translateY(0)
+  }
+
+  to {
+      transform: translateY(-10px)
+  }
+}
+
+.main-banner .contact-formWrapper {
+  animation: 1.5s infinite alternate float;
+}
+
+.main-banner .compensate-for-scrollbar {
+  margin: 0!important;
+  padding: 0!important;
+  overflow: inherit!important
+}
+
+.main-banner .contact-formWrapper {
+  background: #ba5621d9;
+  border: 3px solid var(--color-primary)
+}
+
+.main-banner .contact-form__title {
+  color: #000;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  line-height: 1.24;
+  margin-bottom: .75rem
+}
+
+.main-banner .contact-form__title>span {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+  color: #c19d25
+}
+
+.main-banner .contact-formWrapper.contact-formWrapper--alt {
+  background: #fff;
+  border-radius: 50px 0;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 15px 5px #00000020;
+  border-color: #000
+}
+
+.contact-formWrapper.contact-formWrapper--alt .contact-form__fields :is( input:not([type=file],[type=checkbox]),textarea,select,.contact-form__fields--file > label ) {
+  border: 1px solid #000
+}
+
+.main-banner .contact-form__fields {
+  margin: .5rem .45rem
+}
+
+.main-banner .contact-form__fields :is( input:not([type=file],[type=checkbox]),textarea,select,.contact-form__fields--file > label ) {
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: 0;
+  border-radius: .25rem;
+  padding: .75rem 1rem;
+  margin: 0;
+  resize: none
+}
+
+.contact-form__fields :is(input,textarea,select)::placeholder,.contact-form__fields :is(input,textarea,select,.contact-form__fields--file > label) {
+  color: #000!important;
+  font-size: .9rem;
+  font-weight: 400
+}
+
+.main-banner .contact-form__fields--file>label {
+  width: 100%;
+  position: relative;
+  border: 2px dashed var(--color-primary)!important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: .5rem;
+  cursor: pointer;
+  padding: .6rem 1rem!important
+}
+
+.main-banner .contact-form__fields--check>input,.main-banner .contact-form__fields--file>label>input {
+  display: none
+}
+
+.main-banner .contact-form__fields--file>label>i,.goUp i {
+  font-size: 1.75rem
+}
+
+.main-banner .contact-form__fields--check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem
+}
+
+.main-banner .contact-form__fields--check label {
+  position: relative;
+  user-select: none;
+  font-size: .9rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding-left: 1.75rem;
+  margin-bottom: 0
+}
+
+.main-banner .contact-form__fields--check label::before {
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0 0;
+  border: 1px solid #fff
+}
+
+.main-banner .contact-form__fields--check label::after {
+  content: "\ea41";
+  font-family: boxicons!important;
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  background: #e4bd3b;
+  transform: scale(0);
+  transition: .3s cubic-bezier(.68, -.55, .265, 1.55)
+}
+
+.main-banner .contact-form__fields--check>input:checked+label::after {
+  transform: scale(1)
+}
+
+.main-banner .contact-form__fields button:not(.themeBtn) {
+  width: 100%;
+  color: #fff;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border: none;
+  background: #e4bd3b;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.main-banner .themeBtn--dark {
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0.35rem;
+  padding: 0.65rem 3rem;
+  background: #000;
+}
+
+.main-banner .themeBtn {
+  width: fit-content;
+  color: #fff;
+  font-size: .95rem;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  text-transform: capitalize;
+  padding: 0.75rem 2rem;
+  overflow: hidden;
+  z-index: 1;
+  transition: .3s;
+  position: relative;
+}
+
+.main-banner .themeBtn:hover {
+  color: #fff;
+}
+
+.main-banner .themeBtn:hover::before {
+  animation: 2s 2 shine;
+}
+
+.main-banner .themeBtn::before {
+  background: linear-gradient(to right,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 100%) rgba(0,0,0,0);
+  content: "";
+  display: block;
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transform: skewX(-25deg);
+  width: 50%;
+  z-index: 2;
+}
+
+@keyframes shine {
+  100% {
+      left: 125%
+  }
+}
+
+
+/* font family
+font-family: 'Inter', sans-serif; */
+
+@media only screen and (max-width: 1920px) {
+}
+
+@media only screen and (max-width: 1599px) {
+  
+}
+
+@media only screen and (max-width: 1444px) {
+
+}
+
+@media only screen and (max-width: 1399px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 575px) {
+  
+}
+
+
+<div class="col-lg-7">
+                <div class="title">
+                    <h3>FIGHT BACK WITH THE #1</h3>
+                    <h2>
+                        CONTENT <span>REMOVAL</span> SOLUTION
+                    </h2>
+                </div>
+                <div class="ban-left">
+                    <div class="ban-left-slider">
+                        <div class="ban-left-slide">
+                            <img src="images/mad1.png" alt="">
+                            <h2>Medical Billing Services</h2>
+                            <p>Streamline your revenue with our expert & quality medical billing services. Maximize
+                                income, minimize stress, and focus on what matters most—your patients. </p>
+                        </div>
+                        <div class="ban-left-slide">
+                            <img src="images/mad2.png" alt="">
+                            <h2>Medical Coding Services</h2>
+                            <p>Accurate, compliant, and efficient medical coding solutions tailored to your practice.
+                                Ensure precision, boost revenue, and navigate complex coding with confidence. </p>
+                        </div>
+                        <div class="ban-left-slide">
+                            <img src="images/mad3.png" alt="">
+                            <h2>AR Recovery Services</h2>
+                            <p>Revive your revenue with our dedicated AR recovery experts. We relentlessly pursue aged
+                                claims, ensuring you recover every dollar owed to your practice. </p>
+                        </div>
+                        <div class="ban-left-slide">
+                            <img src="images/mad1.png" alt="">
+                            <h2>Medical Billing Services</h2>
+                            <p>Streamline your revenue with our expert & quality medical billing services. Maximize
+                                income, minimize stress, and focus on what matters most—your patients. </p>
+                        </div>
+                        <div class="ban-left-slide">
+                            <img src="images/mad2.png" alt="">
+                            <h2>Medical Coding Services</h2>
+                            <p>Accurate, compliant, and efficient medical coding solutions tailored to your practice.
+                                Ensure precision, boost revenue, and navigate complex coding with confidence. </p>
+                        </div>
+                        <div class="ban-left-slide">
+                            <img src="images/mad3.png" alt="">
+                            <h2>AR Recovery Services</h2>
+                            <p>Revive your revenue with our dedicated AR recovery experts. We relentlessly pursue aged
+                                claims, ensuring you recover every dollar owed to your practice. </p>
+                        </div>
+                    </div>
+                    <div class="ban-btns">
+                        <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="javascript:void()"
+                            class="theme-btn theme-btn-gre">Get Started<i class="far fa-chevron-double-right "></i></a>
+                        <a href="javascript:;" class="theme-btn  theme-btn-e5a">chat now<i
+                                class="fal fa-comment-lines"></i></a>
+                        <a href="tel:307 392 4597" class="theme-btn theme-btn-gre"><i class="fas fa-phone pe-3"></i>307
+                            392 4597</a>
+                    </div>
+                </div>
+            </div>

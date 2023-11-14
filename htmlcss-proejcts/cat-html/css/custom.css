@@ -1,0 +1,1213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* @import url(../fonts/import.css); */
+@font-face {
+  font-family: Gloom-Bloom;
+  src: url(../fonts/gloss-and-bloom/Gloss_And_Bloom.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+
+main {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000;
+  font-family: Poppins;
+}
+
+.theme-btn {
+  background: #919717;
+  font-family: 'Just Another Hand';
+  font-size: 32px;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.container {
+  max-width: 1129px;
+}
+
+/* header start */
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+img.hid3 {
+  position: absolute;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img.hid4 {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img.hid5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  z-index: -1;
+  object-fit: cover;
+}
+
+img.hid6 {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+img.hid7 {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  right: 0;
+  height: auto;
+  z-index: -1;
+  width: 500px;
+}
+
+header .navbar-collapse {
+  justify-content: end;
+}
+
+header li.nav-item {
+  padding: 0 20px;
+}
+
+header li.nav-item a {
+  font-family: 'Just Another Hand', cursive;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+/* header end */
+/********************************* mian pg start *********************************/
+.main-img {
+  text-align: center;
+}
+
+.baba-cat-sec .container {
+  max-width: 1320px;
+}
+
+.cat-link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cat-link h2 {
+  font-family: 'Just Another Hand', cursive;
+
+}
+
+img.hid1 {
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+img.hid2 {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.cat-link.boba {
+  position: relative;
+}
+
+.cat-link.boba:before {
+  content: '';
+  position: absolute;
+  background: #B5F2FF;
+  left: 40px;
+  bottom: 0;
+  z-index: -1;
+  width: 300px;
+  height: 210px;
+  -webkit-clip-path: polygon(0 14%, 100% 0, 89% 92%, 4% 100%);
+  clip-path: polygon(0 14%, 100% 0, 89% 92%, 4% 100%);
+}
+
+.cat-link.cat:before {
+  content: '';
+  position: absolute;
+  background: #FFB5D4;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 400px;
+  height: 220px;
+  -webkit-clip-path: polygon(0 0, 100% 10%, 89% 100%, 0 94%);
+  clip-path: polygon(0 0, 100% 10%, 89% 100%, 0 94%);
+}
+
+.cat-link.cat {
+  position: relative;
+}
+
+
+.cat-link.shop {
+  position: relative;
+}
+
+.cat-link.shop:before {
+  content: '';
+  position: absolute;
+  background: #DEFFB5;
+  left: 0;
+  bottom: 30px;
+  z-index: -1;
+  width: 329px;
+  height: 210px;
+  -webkit-clip-path: polygon(22% 0, 100% 4%, 94% 100%, 0 100%);
+  clip-path: polygon(22% 0, 100% 4%, 94% 100%, 0 100%);
+}
+
+.cat-link h2 {
+  font-size: 75px;
+  text-transform: capitalize;
+  line-height: 50px;
+  padding: 0px 0 20px 0;
+  color: #000;
+}
+
+.cat-link h2 span {
+  font-size: 63px;
+  text-transform: lowercase;
+  line-height: 63px;
+}
+
+/********************************* mian pg end *********************************/
+
+/* bobacafe banner sec start */
+.boba-tea-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.boba-tea-img {
+  position: relative;
+}
+
+.boba-tea-txt {
+  position: relative;
+  padding: 0 0 0 144px;
+}
+
+.boba-tea-txt img {
+  position: absolute;
+  right: -40px;
+  top: 63px;
+}
+
+.boba-tea-txt h3 {
+  color: #919717;
+  font-family: 'Just Another Hand';
+  font-size: 92px;
+  line-height: 95px;
+}
+
+.boba-tea-txt h2 {
+  font-size: 124px;
+  font-family: 'Chewy', cursive;
+  color: #000;
+  line-height: 125px;
+}
+
+.boba-tea-sec .row {
+  align-items: center;
+  padding: 50px 0;
+}
+
+/* bobacafe banner sec end */
+/* bobacafe drinks sec start */
+.drink img {
+  width: 215px;
+  height: 350px;
+  object-fit: cover;
+}
+
+section.drinks-sec {
+  padding: 40px 0 80px 0;
+}
+
+.drink h2 {
+  font-family: 'Just Another Hand';
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.drink {
+  text-align: center;
+}
+
+/* bobacafe drinks sec end */
+
+/* bubble tea sec start */
+.bubble-tea-sec {
+  position: relative;
+  background-image: url(../images/bubble-bg\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 160px 0;
+}
+
+.bubble-tea h2 {
+  font-size: 60px;
+  line-height: 65px;
+  font-family: 'Chewy';
+  text-transform: initial;
+  color: #000;
+}
+
+.bubble-tea {
+  text-align: left;
+}
+
+/* bubble tea sec end */
+
+/* footer css start */
+.social-links ul {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 20px 0 0 0;
+}
+
+.social-links ul li a {
+  width: 30px;
+  height: 30px;
+  background: #919717;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+}
+
+footer h3 {
+  font-size: 26px;
+  font-family: 'Chewy';
+  color: #000;
+  line-height: 27px;
+  margin: 0 0 20px 0;
+}
+
+footer {
+  background: #EAE1D8;
+  padding: 40px 0 0 0;
+}
+
+footer {
+  background: #EAE1D8;
+  padding: 40px 0 0 0;
+}
+
+.quick-links ul li a {
+  font-size: 32px;
+  font-family: 'Just Another Hand';
+  line-height: 55px;
+  color: #919717;
+}
+
+.quick-links ul li a i {
+  font-size: 22px;
+  padding: 0 12px 0 0;
+}
+
+.copy-right {
+  background: #919717;
+  padding: 10px;
+}
+
+.copy-right {
+  background: #919717;
+  padding: 10px 0;
+  margin: 30px 0 0 0;
+}
+
+/* footer css end */
+/* book a table css start */
+section.book-table-sec input {
+  width: 100%;
+  padding: 3px 0 5px 10px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 5px;
+  color: #fff;
+}
+
+section.book-table-sec input::placeholder {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+section.book-table-sec button {
+  width: 100%;
+  border: none;
+}
+
+section.book-table-sec {
+  background-image: url(../images/table-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 70px 0;
+}
+
+section.book-table-sec h3 {
+  font-size: 92px;
+  line-height: 95px;
+  text-transform: capitalize;
+  font-family: 'Just Another Hand';
+  color: #919717;
+}
+
+section.book-table-sec h2 {
+  font-size: 90px;
+  font-family: 'Chewy';
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 90px;
+}
+
+section.book-table-sec p {
+  color: #fff;
+}
+
+section.book-table-sec form {
+  margin: 40px 0 0 0;
+}
+
+/* book a table css end */
+/* testimonial slider sec start */
+.testi-slide {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 40px 20px;
+  transition: 0.8s;
+  cursor: grab;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgb(0 0 0 / 19%) 0px 5px 15px;
+}
+
+section.testimonial-sec .sec-head {
+  padding: 30px 0;
+}
+
+.testi-slider .slick-slide {
+  margin: 0 10px;
+}
+
+/* .testi-slider .testi-slide:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+.testi-slider .slick-track {
+  padding: 80px 0px;
+}
+
+.testi-slider .slick-list {
+  padding: 0 0px;
+}
+
+.sec-head {
+  text-align: center;
+}
+
+.sec-head h3 {
+  font-size: 90px;
+  font-family: 'Just Another Hand';
+  color: #919717;
+  line-height: 90px;
+}
+
+.sec-head h2 {
+  font-size: 66px;
+  color: #000;
+  font-family: 'Chewy';
+  line-height: 70px;
+}
+
+.testi-slide h3 {
+  font-size: 15px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #000;
+  margin: 10px 0 0 0;
+}
+
+.testi-slide i {
+  color: #F48605;
+}
+
+.testi-slide p {
+  font-size: 14px;
+  padding: 20px 0 0;
+}
+
+.testi-slide img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.slick-prev:before {
+  content: '\f060';
+  font-family: 'Font Awesome 5 Pro';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+  color: #919717;
+  border-radius: 50%;
+  border: 2px solid #919717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-next:before {
+  content: '\f061';
+  font-family: 'Font Awesome 5 Pro';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-weight: 600;
+  color: #919717;
+  border-radius: 50%;
+  border: 2px solid #919717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* testimonial slider sec end */
+/* cat shop css start */
+section.boba-tea-sec.cat-shop h2 {
+  font-size: 90px;
+  line-height: 90px;
+}
+
+section.boba-tea-sec.cat-shop {
+  padding: 0 0 0px 0;
+}
+
+section.boba-tea-sec.cat-shop h3 {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+.prod-desc {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.prod-desc-lo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prod-desc h3 {
+  font-size: 40px;
+  font-family: 'Just Another Hand';
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.prod-desc-lo p {
+  font-size: 27px;
+  font-family: 'Just Another Hand';
+  font-weight: 500;
+}
+
+.prod-desc p {
+  font-size: 32px;
+  font-family: 'Just Another Hand';
+  font-weight: 500;
+}
+
+.prod-desc-lo .theme-btn {
+  font-size: 23px;
+  letter-spacing: 0;
+  width: 87px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 10px;
+}
+
+.prod-desc i {
+  color: #E3B100;
+}
+
+.prod-desc span span {
+  font-size: 22px;
+  font-family: 'Just Another Hand';
+  padding: 0 0 0 9px;
+  font-weight: 700;
+}
+
+.prod-desc span span {
+  font-size: 30px;
+}
+
+section.product-sec {
+  background: #AEE7FA;
+  padding: 80px 0;
+}
+
+.prod-img img {
+  width: 220px;
+  height: 280px;
+  object-fit: contain;
+}
+
+.prod-img {
+  text-align: center;
+  background: #fff;
+  border-radius: 13px;
+  margin: 0 0 12px 0;
+}
+
+/* cat shop css end */
+/* How It works sec css start */
+.how-works img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.how-works {
+  text-align: center;
+}
+
+.how-works h3 {
+  font-size: 36px;
+  font-family: 'Just Another Hand';
+  line-height: 70px;
+  color: #000;
+  text-transform: initial;
+}
+
+section.it-works-sec .sec-head {
+  margin: 10px 0 49px 0;
+}
+
+section.it-works-sec {
+  background-color: #AEE7FA;
+  padding: 100px 0;
+}
+
+/* How It works sec css end */
+/* cat experience css start */
+.cat-exp img {
+  width: 100%;
+  height: 329px;
+  border-radius: 14px;
+  object-fit: contain;
+}
+
+.cat-exp div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+.cat-exp div h3 {
+  font-size: 32px;
+  line-height: 32px;
+  font-family: 'Just Another Hand';
+  color: #000;
+  text-transform: capitalize;
+}
+
+section.cat-exp-sec {
+  padding: 50px 0;
+}
+
+/* membership sec start */
+.member.basic {
+  height: 100%;
+  background: #F8EDB7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  padding: 20px 0;
+}
+
+.member.Popular {
+  height: 100%;
+  background: #AEE7FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  padding: 20px 0;
+}
+
+.member.premium {
+  height: 100%;
+  background: #C8EAC5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  padding: 20px 0;
+}
+
+.member h2 {
+  font-family: 'Just Another Hand';
+  font-size: 50px;
+  padding: 20px 0;
+  text-transform: capitalize;
+  color: #919717;
+}
+
+.member-price h3 {
+  font-family: 'Chewy';
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+  line-height: 30px;
+}
+
+section.membership-sec .row {
+  background: #F6C3DB;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.member-price {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.member-txt {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+img.ban-peo {
+  margin: -120px 0 0 0;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+.cat-sec-right {
+  position: relative;
+}
+
+.cat-sec-right .mem {
+  position: absolute;
+  top: 80px;
+  bottom: unset;
+  left: 225px;
+  font-size: 60px;
+  font-family: 'Chewy';
+  line-height: 60px;
+  color: #000;
+  text-transform: initial;
+  background: #C8EAC5;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-sec-right .visit {
+  position: absolute;
+  top: 31%;
+  left: 7px;
+  font-size: 60px;
+  font-family: 'Chewy';
+  line-height: 60px;
+  color: #000;
+  text-transform: initial;
+  background: #F8EDB7;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-sec-right .adopt {
+  position: absolute;
+  bottom: 140px;
+  left: 300px;
+  font-size: 60px;
+  font-family: 'Chewy';
+  line-height: 60px;
+  color: #000;
+  text-transform: initial;
+  background: #F6C3DB;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cat-sec-right {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+/* .cat-sec-two {
+  background-image: url('../images/cat-3-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+img.cat-three {
+  width: 482px;
+  height: 629px;
+  object-fit: contain;
+  position: relative;
+}
+
+.cat-three-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/Ellipse-12.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.cat-sec-two {
+  position: relative;
+  padding: 30px 0;
+}
+
+img.cat-three-bg {
+  height: 778px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* membership sec end */
+/* cat experience css end */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1599px) {}
+
+@media only screen and (max-width: 1444px) {}
+
+
+@media only screen and (max-width: 1399px) {}
+
+@media only screen and (max-width: 1199px) {
+  .cat-link.boba:before {
+    left: 320px;
+  }
+
+  .cat-link.cat:before {
+    left: 280px;
+  }
+
+  .cat-link.shop:before {
+    left: 280px;
+  }
+
+  section.boba-tea-sec.cat-shop h3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  img.cat-three {
+    width: 388px;
+    height: 559px;
+  }
+
+  img.cat-three-bg {
+    object-fit: contain;
+
+  }
+
+  .boba-tea-txt {
+    padding: 0 0 0 0px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+
+  .cat-link.cat:before {
+    content: '';
+    position: absolute;
+    background: #FFB5D4;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 400px;
+    height: 220px;
+    -webkit-clip-path: polygon(0 0, 100% 10%, 89% 100%, 0 94%);
+    clip-path: polygon(0 0, 100% 10%, 89% 100%, 0 94%);
+  }
+
+  .cat-link.shop:before {}
+
+  .cat-sec-right .mem {
+    top: 670px;
+    left: 375px;
+  }
+
+  .boba-tea-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    float: unset;
+  }
+
+  .cat-link.cat:before {
+    left: 160px;
+  }
+
+  .cat-link.shop:before {
+    left: 140px;
+  }
+
+  .cat-link.boba:before {
+    left: 180px;
+  }
+
+  .cat-sec-right .visit {
+    position: absolute;
+    top: 57%;
+    left: 77px;
+  }
+
+  .boba-tea-img img {
+    width: auto;
+    object-fit: cover;
+    height: 440px;
+    float: right;
+  }
+
+  .bubble-tea-sec {
+    padding: 90px 0;
+    background-size: cover;
+  }
+
+  .boba-tea-txt {
+    padding: 0 0 0 0px;
+  }
+
+  img.ban-peo {}
+}
+
+@media only screen and (max-width: 767px) {
+  img.hid6 {
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .cat-link.boba:before {
+    left: 160px;
+  }
+
+  .cat-link.cat:before {
+    left: 110px;
+  }
+
+  .cat-link.shop:before {
+    left: 120px;
+  }
+
+  .boba-tea-img img {
+    height: 356px;
+  }
+
+  .bubble-tea-sec {
+    padding: 90px 0;
+    background-size: cover;
+  }
+
+  .boba-tea-txt {
+    padding: 0 0 0 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .boba-tea-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .bubble-tea-sec {
+    padding: 90px 0;
+    background-size: cover;
+  }
+
+  .bubble-tea-sec {
+    background-size: cover;
+    padding: 10px 0;
+  }
+
+  .sec-head h2 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .sec-head h3 {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .testi-slider .slick-track {
+    padding: 10px 0px;
+  }
+
+  .boba-tea-txt h3 {
+    font-size: 58px;
+    line-height: 45px;
+    padding: 0px 0 0 0;
+  }
+
+  .boba-tea-txt h2 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+
+  .bubble-tea h2 {
+    font-size: 40px;
+  }
+
+  footer h3 {
+    margin: 30px 0 10px 0;
+  }
+
+  section.book-table-sec h3 {
+    font-size: 68px;
+    line-height: 45px;
+  }
+
+  .drink img {
+    width: 155px;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  section.book-table-sec h2 {
+    font-size: 70px;
+  }
+
+  .prod {
+    margin: 0 0 40px 0;
+  }
+
+  section.boba-tea-sec.cat-shop h3 {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 0;
+  }
+
+  section.boba-tea-sec.cat-shop h2 {
+    font-size: 56px;
+    line-height: 70px;
+  }
+
+  .cat-sec-right .visit {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+
+  .cat-sec-right .mem {
+    top: 42%;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .cat-sec-right .visit {
+    top: 62%;
+    left: 7px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .cat-sec-right .adopt {
+    bottom: 50px;
+    left: 170px;
+    width: 150px;
+    height: 150px;
+  }
+
+  img.cat-three-bg {
+    height: 478px;
+  }
+
+  img.cat-three {
+    width: 252px;
+    height: 369px;
+  }
+
+  .cat-three-img:before {
+    width: 90px;
+    height: 80px;
+    background-size: contain;
+  }
+
+  .boba-tea-img img {
+    width: 100%;
+    object-fit: contain;
+    height: 256px;
+    top: 20px;
+  }
+
+  .bubble-tea-sec {
+    padding: 30px 60px !important;
+  }
+
+  .cat-link.boba:before {
+    left: 0;
+  }
+
+  .cat-link.shop:before {
+    left: 0;
+  }
+
+  img.hid6 {
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .cat-link.cat:before {
+    left: 0;
+  }
+
+  .boba-tea-txt {
+    padding: 0 0 0 0px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .bubble-tea-sec {
+    padding: 30px 20px !important;
+}
+}
+section.membership-sec {
+  margin: 0 70px;
+}
